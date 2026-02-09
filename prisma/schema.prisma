@@ -1,0 +1,234 @@
+// This is your Prisma schema file
+// Learn more: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+// JWT-Only Authentication = Single User table only!
+// No sessions, accounts, or verification tokens needed
+// Session data stored in encrypted JWT cookie
+
+model User {
+  id        String   @id @default(cuid())
+  name      String?
+  email     String   @unique
+  password  String   // Hashed with bcrypt
+  image     String?
+  role      String   @default("user") // "user" or "admin"
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@map("users")
+}
+
+// BP Tangguh TEP Models
+// Master Tables
+
+model TbMProject {
+  projectId     Int      @id @map("project_id")
+  projectCode   String   @map("project_code")
+  projectName   String   @map("project_name")
+  description   String?  @db.Text
+  startDate     DateTime @map("start_date")
+  endDate       DateTime @map("end_date")
+  status        String
+  contractType  String   @map("contract_type")
+
+  amendments    TbMAmendment[]
+  monthlyCosts  TbTMonthlyCost[]
+  pamfClaims    TbTPamfClaim[]
+  monthlyPobs   TbTMonthlyPob[]
+  variationOrders TbTVariationOrder[]
+  subcontractors TbMSubcontractor[]
+  events        TbMEvent[]
+  projectProgress TbTProjectProgress[]
+
+  @@map("tb_m_project")
+}
+
+model TbMAmendment {
+  amendmentId           Int      @id @default(autoincrement()) @map("amendment_id")
+  projectId             Int?     @map("project_id")
+  amendmentCode         String?  @map("amendment_code") @db.VarChar(50)
+  amendmentName         String?  @map("amendment_name") @db.VarChar(50)
+  effectiveDate         DateTime? @map("effective_date") @db.Date
+  totalContractValue    Decimal? @map("total_contract_value") @db.Decimal(18, 2)
+  lumpSumValue          Decimal? @map("lump_sum_value") @db.Decimal(18, 2)
+  reimbursableValue     Decimal? @map("reimbursable_value") @db.Decimal(18, 2)
+  provisionalSumValue   Decimal? @map("provisional_sum_value") @db.Decimal(18, 2)
+  backchargeValue       Decimal? @map("backcharge_value") @db.Decimal(18, 2)
+  remarks               String?  @db.Text
+
+  project         TbMProject? @relation(fields: [projectId], references: [projectId])
+  contractValues  TbTContractValue[]
+
+  @@map("tb_m_amendment")
+}
+
+model TbMCostCategory {
+  categoryId      Int      @id @map("category_id")
+  categoryCode    String   @map("category_code")
+  categoryName    String   @map("category_name")
+  parentCategoryId Int?    @map("parent_category_id")
+  level           Int
+  description     String?  @db.Text
+
+  contractValues  TbTContractValue[]
+
+  @@map("tb_m_cost_category")
+}
+
+model TbMCostDiscipline {
+  disciplineId    Int      @id @map("discipline_id")
+  disciplineCode  String   @map("discipline_code")
+  disciplineName  String   @map("discipline_name")
+  description     String?  @db.Text
+
+  pamfClaims      TbTPamfClaim[]
+
+  @@map("tb_m_cost_discipline")
+}
+
+model TbMSubcontractor {
+  subcontractorId   Int      @id @map("subcontractor_id")
+  projectId         Int      @map("project_id")
+  subcontractorName String   @map("subcontractor_name")
+  subcontractorCode String?  @map("subcontractor_code")
+  contractValue     Decimal? @map("contract_value") @db.Decimal(15, 2)
+  startDate         DateTime @map("start_date")
+  endDate           DateTime @map("end_date")
+
+  project           TbMProject @relation(fields: [projectId], references: [projectId])
+  monthlyData       TbTSubcontractorMonthly[]
+  projectProgress   TbTProjectProgress[]
+
+  @@map("tb_m_subcontractor")
+}
+
+model TbMEvent {
+  eventId         Int      @id @map("event_id")
+  projectId       Int      @map("project_id")
+  eventCode       String   @map("event_code")
+  eventName       String   @map("event_name")
+  eventDate       DateTime @map("event_date")
+  description     String?  @db.Text
+  eventType       String   @map("event_type")
+
+  project         TbMProject @relation(fields: [projectId], references: [projectId])
+
+  @@map("tb_m_event")
+}
+
+// Transaction Tables
+
+model TbTContractValue {
+  id              Int      @id @default(autoincrement())
+  amendmentId     Int      @map("amendment_id")
+  costCategoryId  Int      @map("cost_category_id")
+  description     String?  @db.Text
+  amountUsd       Decimal  @map("amount_usd") @db.Decimal(15, 2)
+  remarks         String?  @db.Text
+
+  amendment       TbMAmendment @relation(fields: [amendmentId], references: [amendmentId])
+  costCategory    TbMCostCategory @relation(fields: [costCategoryId], references: [categoryId])
+
+  @@map("tb_t_contract_value")
+}
+
+model TbTMonthlyCost {
+  id                    Int      @id @default(autoincrement())
+  year                  Int
+  month                 Int
+  costType              String   @map("cost_type")
+  monthlyAmountMusd     Decimal  @map("monthly_amount_musd") @db.Decimal(10, 2)
+  cumulativeAmountMusd  Decimal  @map("cumulative_amount_musd") @db.Decimal(10, 2)
+  projectId             Int      @map("project_id")
+
+  project               TbMProject @relation(fields: [projectId], references: [projectId])
+
+  @@map("tb_t_monthly_cost")
+}
+
+model TbTPamfClaim {
+  id              Int      @id @default(autoincrement())
+  projectId       Int      @map("project_id")
+  disciplineId    Int      @map("discipline_id")
+  discipline      String
+  pamfGroup       String   @map("pamf_group")
+  label           String
+  level           Int
+  pamfCount       Int      @map("pamf_count")
+  claimAmountUsd  Decimal  @map("claim_amount_usd") @db.Decimal(15, 2)
+
+  project         TbMProject @relation(fields: [projectId], references: [projectId])
+  disciplineRef   TbMCostDiscipline @relation(fields: [disciplineId], references: [disciplineId])
+
+  @@map("tb_t_pamf_claim")
+}
+
+model TbTMonthlyPob {
+  id              Int      @id @default(autoincrement())
+  year            Int
+  month           Int
+  pobCount        Int      @map("pob_count")
+  isolationCount  Int      @map("isolation_count")
+  projectId       Int      @map("project_id")
+  remarks         String?  @db.Text
+
+  project         TbMProject @relation(fields: [projectId], references: [projectId])
+
+  @@map("tb_t_monthly_pob")
+}
+
+model TbTVariationOrder {
+  voId                  Int      @id @map("vo_id")
+  projectId             Int      @map("project_id")
+  voNumber              String   @map("vo_number")
+  voName                String   @map("vo_name")
+  amountUsd             Decimal  @map("amount_usd") @db.Decimal(15, 2)
+  status                String
+  approvedInAmendment   Int      @map("approved_in_amendment")
+  approvedDate          DateTime? @map("approved_date")
+
+  project               TbMProject @relation(fields: [projectId], references: [projectId])
+
+  @@map("tb_t_variation_order")
+}
+
+model TbTSubcontractorMonthly {
+  id              Int      @id @default(autoincrement())
+  year            Int
+  month           Int
+  value           Decimal  @db.Decimal(15, 2)
+  metric          String
+  excelRow        Int?     @map("excel_row")
+  rawLabel        String?  @map("raw_label")
+  subcontractor   String
+  subcontractorId Int      @map("subcontractor_id")
+
+  subcontractorRef TbMSubcontractor @relation(fields: [subcontractorId], references: [subcontractorId])
+
+  @@map("tb_t_subcontractor_monthly")
+}
+
+model TbTProjectProgress {
+  id                  Int      @id @default(autoincrement())
+  subcontractor       String
+  year                Int
+  month               Int
+  overallProgressPct  Decimal  @map("overall_progress_pct") @db.Decimal(10, 6)
+  planProgressPct     Decimal  @map("plan_progress_pct") @db.Decimal(10, 6)
+  subcontractorId     Int      @map("subcontractor_id")
+  projectId           Int      @map("project_id")
+
+  subcontractorRef    TbMSubcontractor @relation(fields: [subcontractorId], references: [subcontractorId])
+  project             TbMProject @relation(fields: [projectId], references: [projectId])
+
+  @@map("tb_t_project_progress")
+}
