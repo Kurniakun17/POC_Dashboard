@@ -12,7 +12,7 @@ export async function GET() {
 
     const data = amendments.map((amendment) => {
       const totalValue = amendment.contractValues.reduce(
-        (sum, cv) => sum + Number(cv.amountUsd),
+        (sum, cv) => sum + (cv.amountUsd ? Number(cv.amountUsd) : 0),
         0
       )
 

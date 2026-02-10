@@ -6,13 +6,14 @@ services:
     restart: unless-stopped
     environment:
       MYSQL_ROOT_PASSWORD: root
-      MYSQL_DATABASE: bp_dashboard
+      MYSQL_DATABASE: bp_project
       MYSQL_USER: admin
       MYSQL_PASSWORD: admin123
     ports:
       - "3306:3306"
     volumes:
       - mysql_data:/var/lib/mysql
+      - ./database/mysql_insert.sql:/docker-entrypoint-initdb.d/01-bp-project.sql:ro
     healthcheck:
       test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "root", "-proot"]
       interval: 10s
@@ -44,7 +45,7 @@ services:
         condition: service_healthy
     networks:
       - bp-network
-    command: npm run dev
+    command: sh -c "npx prisma migrate deploy && npm run dev"
 
 volumes:
   mysql_data:

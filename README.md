@@ -1,36 +1,81 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# BP Dashboard
 
-## Getting Started
+This project runs the BP dashboard app with a MySQL database seeded from BP project SQL data.
 
-First, run the development server:
+## What is included
+
+- `database/mysql_insert.sql`: migrated from `BP_BE/database/mysql_insert.sql`
+- Docker MySQL auto-import on first startup (`/docker-entrypoint-initdb.d`)
+- Prisma migration for auth table (`users`) on app startup
+- Default database name: `bp_project`
+
+## Prerequisites
+
+- Docker / Docker Compose
+- Node.js 20+ (optional, only if running app outside Docker)
+
+## Run with Docker (Development)
+
+From `bp-dashboard/`:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+docker-compose up -d --build
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This does:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Starts MySQL with database `bp_project`
+2. Imports `database/mysql_insert.sql` on first initialization
+3. Starts app container
+4. Runs `npx prisma migrate deploy` to create `users` table
+5. Runs Next.js dev server
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Open:
 
-## Learn More
+- App: `http://localhost:3000`
+- MySQL: `localhost:3306`
 
-To learn more about Next.js, take a look at the following resources:
+## Verify BP Project Data
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+docker-compose exec mysql mysql -uroot -proot -e "USE bp_project; SHOW TABLES;"
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Example checks:
 
-## Deploy on Vercel
+```bash
+docker-compose exec mysql mysql -uroot -proot -e "USE bp_project; SELECT COUNT(*) AS amendments FROM tb_m_amendment;"
+docker-compose exec mysql mysql -uroot -proot -e "USE bp_project; SELECT COUNT(*) AS monthly_cost_rows FROM tb_t_monthly_cost;"
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Important: SQL import only runs on first DB init
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+MySQL init scripts in `/docker-entrypoint-initdb.d` run only when the data volume is empty.
+
+If you need to re-import from SQL:
+
+```bash
+docker-compose down -v
+docker-compose up -d --build
+```
+
+## Production Compose
+
+`docker-compose.prod.yml` is also configured to:
+
+- Use database `bp_project`
+- Auto-import `database/mysql_insert.sql` on first MySQL init
+
+Start production stack:
+
+```bash
+docker-compose -f docker-compose.prod.yml up -d --build
+```
+
+## Notes
+
+- The BP project schema/data is sourced from `BP_BE` SQL.
+- Prisma schema currently remains as-is; auth migration only creates `users`.
+- If you later change BP table structures, update both:
+  - `database/mysql_insert.sql`
+  - `prisma/schema.prisma` (recommended to keep them aligned)

@@ -13,7 +13,7 @@ export async function GET() {
 
     // Calculate total contract value for latest amendment
     const latestValue = latestAmendment?.contractValues.reduce(
-      (sum, cv) => sum + Number(cv.amountUsd),
+      (sum, cv) => sum + (cv.amountUsd ? Number(cv.amountUsd) : 0),
       0
     ) || 0
 
@@ -26,7 +26,7 @@ export async function GET() {
     })
 
     const originalValue = originalAmendment?.contractValues.reduce(
-      (sum, cv) => sum + Number(cv.amountUsd),
+      (sum, cv) => sum + (cv.amountUsd ? Number(cv.amountUsd) : 0),
       0
     ) || 0
 
@@ -55,7 +55,7 @@ export async function GET() {
       amendmentCount,
       subcontractorCount,
       startDate: project?.startDate,
-      endDate: project?.endDate,
+      endDate: project?.actualEndDate || project?.plannedEndDate,
       latestAmendment: latestAmendment?.amendmentCode,
     })
   } catch (error) {

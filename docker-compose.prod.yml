@@ -8,13 +8,14 @@ services:
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD:-changeme}
-      MYSQL_DATABASE: bp_dashboard
+      MYSQL_DATABASE: bp_project
       MYSQL_USER: ${MYSQL_USER:-admin}
       MYSQL_PASSWORD: ${MYSQL_PASSWORD:-changeme}
     ports:
       - "3306:3306"
     volumes:
       - mysql_prod_data:/var/lib/mysql
+      - ./database/mysql_insert.sql:/docker-entrypoint-initdb.d/01-bp-project.sql:ro
     healthcheck:
       test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "root", "-p${MYSQL_ROOT_PASSWORD:-changeme}"]
       interval: 10s

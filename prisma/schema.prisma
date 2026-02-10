@@ -31,14 +31,17 @@ model User {
 // Master Tables
 
 model TbMProject {
-  projectId     Int      @id @map("project_id")
-  projectCode   String   @map("project_code")
-  projectName   String   @map("project_name")
-  description   String?  @db.Text
-  startDate     DateTime @map("start_date")
-  endDate       DateTime @map("end_date")
-  status        String
-  contractType  String   @map("contract_type")
+  projectId               Int       @id @default(autoincrement()) @map("project_id")
+  projectCode             String?   @map("project_code") @db.VarChar(50)
+  projectName             String?   @map("project_name") @db.VarChar(50)
+  client                  String?   @db.VarChar(50)
+  country                 String?   @db.VarChar(50)
+  contractType            String?   @map("contract_type") @db.VarChar(50)
+  originalContractValue   Decimal?  @map("original_contract_value") @db.Decimal(18, 2)
+  startDate               DateTime? @map("start_date") @db.Date
+  plannedEndDate          DateTime? @map("planned_end_date") @db.Date
+  actualEndDate           DateTime? @map("actual_end_date") @db.Date
+  status                  String?   @db.VarChar(50)
 
   amendments    TbMAmendment[]
   monthlyCosts  TbTMonthlyCost[]
@@ -72,12 +75,12 @@ model TbMAmendment {
 }
 
 model TbMCostCategory {
-  categoryId      Int      @id @map("category_id")
-  categoryCode    String   @map("category_code")
-  categoryName    String   @map("category_name")
-  parentCategoryId Int?    @map("parent_category_id")
-  level           Int
-  description     String?  @db.Text
+  categoryId        Int     @id @default(autoincrement()) @map("category_id")
+  parentCategoryId  Int?    @map("parent_category_id")
+  categoryCode      String? @map("category_code") @db.VarChar(50)
+  categoryName      String? @map("category_name") @db.VarChar(64)
+  categoryType      String? @map("category_type") @db.VarChar(50)
+  level             Int?
 
   contractValues  TbTContractValue[]
 
@@ -132,7 +135,7 @@ model TbTContractValue {
   amendmentId     Int      @map("amendment_id")
   costCategoryId  Int      @map("cost_category_id")
   description     String?  @db.Text
-  amountUsd       Decimal  @map("amount_usd") @db.Decimal(15, 2)
+  amountUsd       Decimal? @map("amount_usd") @db.Decimal(18, 2)
   remarks         String?  @db.Text
 
   amendment       TbMAmendment @relation(fields: [amendmentId], references: [amendmentId])

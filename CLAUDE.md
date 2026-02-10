@@ -147,3 +147,8 @@ peningkatan tata kelola proyek untuk pengelolaan risiko yang lebih baik.
 Dengan tujuan-tujuan tersebut, pekerjaan review PLK dalam SoW ini memberikan fondasi yang
 kuat untuk memastikan kualitas evaluasi, integritas hasil kerja, serta penyampaian PLK yang
 dapat dipertanggungjawabkan kepada SKK Migas dan pemangku kepentingan lainnya.
+
+
+# IMPORTANT 
+REMEMBER TO ALWAYS TO ASK TO USE SHADCN COMPONENT FIRST
+REMEMBER TO ALWAYS CHECK THE MCP USAGE
