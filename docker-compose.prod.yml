@@ -15,7 +15,7 @@ services:
       - "3306:3306"
     volumes:
       - mysql_prod_data:/var/lib/mysql
-      - ./database/mysql_insert.sql:/docker-entrypoint-initdb.d/01-bp-project.sql:ro
+      - ./database:/docker-entrypoint-initdb.d:ro
     healthcheck:
       test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "root", "-p${MYSQL_ROOT_PASSWORD:-changeme}"]
       interval: 10s
@@ -43,7 +43,7 @@ services:
         condition: service_healthy
     networks:
       - bp-network-prod
-    command: sh -c "npx prisma migrate deploy && node server.js"
+    command: node server.js
 
 volumes:
   mysql_prod_data:
