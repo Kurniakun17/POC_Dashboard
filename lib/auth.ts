@@ -3,7 +3,7 @@ import CredentialsProvider from "next-auth/providers/credentials"
 import { compare } from "bcryptjs"
 import { prisma } from "./prisma"
 
-export const authOptions = {
+export const authOptions: NextAuthConfig = {
   // JWT-only strategy - No database sessions!
   session: {
     strategy: "jwt",
@@ -20,15 +20,15 @@ export const authOptions = {
       },
       async authorize(credentials) {
         // Validate credentials exist
-        if (!credentials?.email || !credentials?.password) {
+        const email = credentials?.email as string | undefined
+        const password = credentials?.password as string | undefined
+        if (!email || !password) {
           throw new Error("Email dan password harus diisi")
         }
 
         // Find user by email
         const user = await prisma.user.findUnique({
-          where: {
-            email: credentials.email
-          }
+          where: { email }
         })
 
         // Check if user exists
@@ -37,10 +37,7 @@ export const authOptions = {
         }
 
         // Verify password
-        const isPasswordValid = await compare(
-          credentials.password,
-          user.password
-        )
+        const isPasswordValid = await compare(password, user.password)
 
         if (!isPasswordValid) {
           throw new Error("Email atau password salah")
@@ -61,7 +58,7 @@ export const authOptions = {
   // Callback functions
   callbacks: {
     // JWT callback - Add custom data to token
-    async jwt({ token, user, trigger, session }) {
+    async jwt({ token, user, trigger, session }: { token: any; user: any; trigger?: string; session?: any }) {
       // Initial sign in
       if (user) {
         token.id = user.id
@@ -78,7 +75,7 @@ export const authOptions = {
     },
 
     // Session callback - Add custom data to session
-    async session({ session, token }) {
+    async session({ session, token }: { session: any; token: any }) {
       if (token && session.user) {
         session.user.id = token.id as string
         session.user.role = token.role as string
