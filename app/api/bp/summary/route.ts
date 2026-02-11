@@ -6,12 +6,9 @@ export async function GET() {
     // Get latest amendment (AMD-5)
     const latestAmendment = await prisma.tbMAmendment.findFirst({
       orderBy: { amendmentId: 'desc' },
-      include: {
-        contractValues: true,
-      },
+      include: { contractValues: true },
     })
 
-    // Calculate total contract value for latest amendment
     const latestValue = latestAmendment?.contractValues.reduce(
       (sum, cv) => sum + (cv.amountUsd ? Number(cv.amountUsd) : 0),
       0
@@ -20,9 +17,7 @@ export async function GET() {
     // Get original contract value
     const originalAmendment = await prisma.tbMAmendment.findFirst({
       where: { amendmentCode: 'ORIGINAL' },
-      include: {
-        contractValues: true,
-      },
+      include: { contractValues: true },
     })
 
     const originalValue = originalAmendment?.contractValues.reduce(
@@ -30,22 +25,16 @@ export async function GET() {
       0
     ) || 0
 
-    // Calculate growth percentage
     const growthPercent = originalValue > 0
       ? ((latestValue - originalValue) / originalValue) * 100
       : 0
 
-    // Count PAMF claims
-    const pamfCount = await prisma.tbTPamfClaim.count()
-
-    // Count amendments
-    const amendmentCount = await prisma.tbMAmendment.count()
-
-    // Count subcontractors
-    const subcontractorCount = await prisma.tbMSubcontractor.count()
-
-    // Get project date range
-    const project = await prisma.tbMProject.findFirst()
+    const [pamfCount, amendmentCount, subcontractorCount, project] = await Promise.all([
+      prisma.tbTPamfClaim.count(),
+      prisma.tbMAmendment.count(),
+      prisma.tbMSubcontractor.count(),
+      prisma.tbMProject.findFirst(),
+    ])
 
     return NextResponse.json({
       totalContractValue: latestValue,

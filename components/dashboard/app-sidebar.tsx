@@ -2,6 +2,7 @@
 
 import { ChevronDown, LayoutDashboard, BarChart3, Database, FileText, Settings, LogOut, User } from "lucide-react"
 import { signOut } from "next-auth/react"
+import { t } from "@/lib/translations"
 import {
   Sidebar,
   SidebarContent,
@@ -36,25 +37,25 @@ interface AppSidebarProps {
 export function AppSidebar({ user }: AppSidebarProps) {
   const menuItems = [
     {
-      title: "Dashboard",
+      title: t("Dashboard"),
       icon: LayoutDashboard,
       url: "/dashboard",
       isActive: true,
     },
     {
-      title: "Analisis Data",
+      title: t("Data Analysis"),
       icon: BarChart3,
       url: "#",
       disabled: true,
     },
     {
-      title: "Data Lapangan",
+      title: t("Field Data"),
       icon: Database,
       url: "#",
       disabled: true,
     },
     {
-      title: "Laporan",
+      title: t("Reports"),
       icon: FileText,
       url: "#",
       disabled: true,
@@ -96,7 +97,7 @@ export function AppSidebar({ user }: AppSidebarProps) {
 
       <SidebarContent>
         <SidebarGroup>
-          <SidebarGroupLabel>Menu Utama</SidebarGroupLabel>
+          <SidebarGroupLabel>{t('Main Menu')}</SidebarGroupLabel>
           <SidebarGroupContent>
             <SidebarMenu>
               {menuItems.map((item) => (
@@ -129,9 +130,9 @@ export function AppSidebar({ user }: AppSidebarProps) {
           <SidebarGroupContent>
             <SidebarMenu>
               <SidebarMenuItem>
-                <SidebarMenuButton tooltip="Settings (Coming Soon)" disabled>
+                <SidebarMenuButton tooltip={`${t('Settings')} (Segera Hadir)`} disabled>
                   <Settings className="size-4" />
-                  <span>Settings</span>
+                  <span>{t('Settings')}</span>
                 </SidebarMenuButton>
               </SidebarMenuItem>
             </SidebarMenu>
@@ -174,11 +175,11 @@ export function AppSidebar({ user }: AppSidebarProps) {
                 <DropdownMenuSeparator />
                 <DropdownMenuItem disabled>
                   <User className="mr-2 size-4" />
-                  Profile
+                  {t('Profile')}
                 </DropdownMenuItem>
                 <DropdownMenuItem disabled>
                   <Settings className="mr-2 size-4" />
-                  Settings
+                  {t('Settings')}
                 </DropdownMenuItem>
                 <DropdownMenuSeparator />
                 <DropdownMenuItem
@@ -186,7 +187,7 @@ export function AppSidebar({ user }: AppSidebarProps) {
                   onClick={() => signOut({ callbackUrl: "/login" })}
                 >
                   <LogOut className="mr-2 size-4" />
-                  Logout
+                  {t('Logout')}
                 </DropdownMenuItem>
               </DropdownMenuContent>
             </DropdownMenu>

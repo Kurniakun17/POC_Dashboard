@@ -1,0 +1,108 @@
+/* Dark Executive Dashboard Theme
+ * Glass-morphism cards, glow effects, gradient accents
+ */
+
+/* Glass-morphism card effect */
+.dark .glass-card {
+  background: rgba(15, 23, 42, 0.6);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(59, 130, 246, 0.12);
+  box-shadow:
+    0 0 15px rgba(59, 130, 246, 0.06),
+    inset 0 1px 0 rgba(255, 255, 255, 0.04);
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.dark .glass-card:hover {
+  border-color: rgba(59, 130, 246, 0.25);
+  box-shadow:
+    0 0 25px rgba(59, 130, 246, 0.1),
+    inset 0 1px 0 rgba(255, 255, 255, 0.06);
+}
+
+/* Gradient border for featured elements */
+.dark .gradient-border {
+  position: relative;
+}
+
+.dark .gradient-border::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  padding: 1px;
+  background: linear-gradient(
+    135deg,
+    rgba(59, 130, 246, 0.4),
+    rgba(168, 85, 247, 0.2),
+    rgba(6, 182, 212, 0.3)
+  );
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+}
+
+/* KPI value glow in dark mode */
+.dark .kpi-value {
+  text-shadow: 0 0 20px rgba(59, 130, 246, 0.25);
+}
+
+/* Filter bar glass effect */
+.dark .filter-bar {
+  background: rgba(15, 23, 42, 0.3);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-radius: 0.5rem;
+  padding: 0.75rem;
+  border: 1px solid rgba(59, 130, 246, 0.08);
+}
+
+/* Chart container subtle glow */
+.dark .chart-glow .recharts-surface {
+  filter: drop-shadow(0 0 4px rgba(59, 130, 246, 0.15));
+}
+
+/* Tabs styling for dark mode */
+.dark [data-slot="tabs-list"] {
+  background: rgba(15, 23, 42, 0.5);
+  border: 1px solid rgba(59, 130, 246, 0.1);
+}
+
+.dark [data-slot="tabs-trigger"][data-state="active"] {
+  background: rgba(59, 130, 246, 0.15);
+  color: hsl(217 91% 75%);
+  box-shadow: 0 0 10px rgba(59, 130, 246, 0.1);
+}
+
+/* Scrollbar styling for dark mode */
+.dark ::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+.dark ::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: rgba(59, 130, 246, 0.2);
+  border-radius: 3px;
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: rgba(59, 130, 246, 0.35);
+}
+
+/* Badge glow in dark mode */
+.dark .badge-glow {
+  box-shadow: 0 0 8px rgba(59, 130, 246, 0.2);
+}
+
+/* Smooth transitions for theme switch */
+.glass-card,
+.filter-bar,
+.kpi-value {
+  transition: all 0.3s ease;
+}

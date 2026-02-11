@@ -1,0 +1,11 @@
+event_id,project_id,event_code,event_name,event_type,start_date,end_date,description
+1,1,CONTRACT_AWARD,Contract Award,MILESTONE,2016-06-01,,Original EPCI Contract signed
+2,1,AMD_1,Amendment 1,AMENDMENT,2017-01-01,,Novated contract adjustment (GE contract)
+3,1,AMD_2,Amendment 2,AMENDMENT,2019-05-01,,"Major scope restructure: reimbursable, VOs, logistics"
+4,1,COVID_PANDEMIC,COVID-19 Pandemic Onset,PANDEMIC,2020-03-01,,"COVID-19 begins affecting project, POB restricted 12000+ to ~6300"
+5,1,FM,Force Majeure Declaration,FORCE_MAJEURE,2020-12-01,,Force Majeure declared due to COVID-19 impact
+6,1,AMD_3,Amendment 3,AMENDMENT,2020-12-01,,"COVID response, FGRS RCE, additional provisional sums"
+7,1,OUTBREAK_2,2nd COVID Outbreak (Delta),OUTBREAK,2021-07-01,2021-12-31,Second COVID outbreak at Tangguh site (Delta variant)
+8,1,AMD_4,Amendment 4,AMENDMENT,2022-06-01,,"Extended COVID FM costs, expanded reimbursable"
+9,1,OUTBREAK_3,3rd COVID Outbreak (Omicron),OUTBREAK,2022-01-01,2022-06-30,Third COVID outbreak (Omicron variant)
+10,1,AMD_5,Amendment 5,AMENDMENT,2024-01-01,,"Final amendment: COVID Tier 4, labor law PP35, commissioning"

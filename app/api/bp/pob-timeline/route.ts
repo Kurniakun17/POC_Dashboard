@@ -9,13 +9,12 @@ export async function GET(request: Request) {
     const startDate = searchParams.get('startDate')
     const endDate = searchParams.get('endDate')
 
-    const where: Prisma.TbTMonthlyCostWhereInput = {}
+    const where: Prisma.TbTMonthlyPobWhereInput = {}
 
     if (year) {
       where.year = parseInt(year)
     } else if (startDate || endDate) {
-      // Convert date range to year/month compound conditions
-      const conditions: Prisma.TbTMonthlyCostWhereInput[] = []
+      const conditions: Prisma.TbTMonthlyPobWhereInput[] = []
       if (startDate) {
         const s = new Date(startDate)
         conditions.push({
@@ -34,43 +33,28 @@ export async function GET(request: Request) {
           ],
         })
       }
-      if (conditions.length > 0) {
-        where.AND = conditions
-      }
+      if (conditions.length > 0) where.AND = conditions
     }
 
-    const monthlyCosts = await prisma.tbTMonthlyCost.findMany({
+    const data = await prisma.tbTMonthlyPob.findMany({
       where,
       orderBy: [{ year: 'asc' }, { month: 'asc' }],
     })
 
-    const grouped = monthlyCosts.reduce((acc, cost) => {
-      const key = `${cost.year}-${String(cost.month).padStart(2, '0')}`
-
-      if (!acc[key]) {
-        acc[key] = {
-          year: cost.year,
-          month: cost.month,
-          date: key,
-          FGRS: 0,
-          LOGI: 0,
-        }
-      }
-
-      if (cost.costType === 'FGRS_RCE') {
-        acc[key].FGRS = Number(cost.monthlyAmountMusd)
-      } else if (cost.costType === 'LOGI_RCE') {
-        acc[key].LOGI = Number(cost.monthlyAmountMusd)
-      }
-
-      return acc
-    }, {} as Record<string, { year: number; month: number; date: string; FGRS: number; LOGI: number }>)
-
-    return NextResponse.json(Object.values(grouped))
-  } catch (error) {
-    console.error('Error fetching monthly cost:', error)
     return NextResponse.json(
-      { error: 'Failed to fetch monthly cost data' },
+      data.map((row) => ({
+        year: row.year,
+        month: row.month,
+        date: `${row.year}-${String(row.month).padStart(2, '0')}`,
+        pobCount: row.pobCount,
+        isolationCount: row.isolationCount,
+        remarks: row.remarks,
+      }))
+    )
+  } catch (error) {
+    console.error('POB timeline error:', error)
+    return NextResponse.json(
+      { error: 'Failed to fetch POB data' },
       { status: 500 }
     )
   }

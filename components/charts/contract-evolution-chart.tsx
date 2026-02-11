@@ -3,6 +3,8 @@
 import { useEffect, useState } from 'react'
 import { Area, AreaChart, CartesianGrid, ResponsiveContainer, Tooltip, XAxis, YAxis, Legend } from 'recharts'
 import { format } from 'date-fns'
+import { useFilters, buildFilterQuery } from '@/lib/filter-context'
+import { CHART_COLORS_HEX } from '@/lib/chart-colors'
 
 interface ContractEvolutionData {
   amendmentCode: string
@@ -13,33 +15,26 @@ interface ContractEvolutionData {
 }
 
 export function ContractEvolutionChart() {
+  const { filters } = useFilters()
   const [data, setData] = useState<ContractEvolutionData[]>([])
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
-    fetch('/api/bp/contract-evolution')
+    const query = buildFilterQuery(filters, ['amendmentIds', 'dateRange'])
+    setLoading(true)
+    fetch(`/api/bp/contract-evolution${query}`)
       .then((res) => res.json())
-      .then((data) => {
-        // Validate that data is an array
-        if (Array.isArray(data)) {
-          setData(data)
-        } else {
-          console.error('Invalid data format:', data)
-          setData([])
-        }
+      .then((d) => {
+        setData(Array.isArray(d) ? d : [])
         setLoading(false)
       })
-      .catch((error) => {
-        console.error('Error loading contract evolution:', error)
-        setData([])
-        setLoading(false)
-      })
-  }, [])
+      .catch(() => { setData([]); setLoading(false) })
+  }, [filters.amendmentIds.join(','), filters.dateRange.start?.toISOString(), filters.dateRange.end?.toISOString()])
 
   if (loading) {
     return (
       <div className="flex h-[300px] items-center justify-center">
-        <div className="text-sm text-muted-foreground">Loading chart...</div>
+        <div className="text-sm text-muted-foreground animate-pulse">Loading chart...</div>
       </div>
     )
   }
@@ -57,8 +52,8 @@ export function ContractEvolutionChart() {
       <AreaChart data={data} margin={{ top: 10, right: 30, left: 0, bottom: 0 }}>
         <defs>
           <linearGradient id="colorValue" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="5%" stopColor="#0066CC" stopOpacity={0.8} />
-            <stop offset="95%" stopColor="#0066CC" stopOpacity={0.1} />
+            <stop offset="5%" stopColor={CHART_COLORS_HEX.blue} stopOpacity={0.8} />
+            <stop offset="95%" stopColor={CHART_COLORS_HEX.blue} stopOpacity={0.1} />
           </linearGradient>
         </defs>
         <CartesianGrid strokeDasharray="3 3" className="stroke-muted" />
@@ -75,18 +70,16 @@ export function ContractEvolutionChart() {
         <Tooltip
           content={({ active, payload }) => {
             if (active && payload && payload.length) {
-              const data = payload[0].payload as ContractEvolutionData
+              const d = payload[0].payload as ContractEvolutionData
               return (
                 <div className="rounded-lg border bg-background p-3 shadow-md">
-                  <div className="text-sm font-medium">{data.amendmentCode}</div>
+                  <div className="text-sm font-medium">{d.amendmentCode}</div>
                   <div className="text-xs text-muted-foreground mb-2">
-                    {format(new Date(data.effectiveDate), 'MMM d, yyyy')}
+                    {format(new Date(d.effectiveDate), 'MMM d, yyyy')}
                   </div>
-                  <div className="text-lg font-bold text-primary">
-                    ${data.totalValueB.toFixed(2)}B
-                  </div>
+                  <div className="text-lg font-bold text-primary">${d.totalValueB.toFixed(2)}B</div>
                   <div className="text-xs text-muted-foreground">
-                    (${(data.totalValue / 1_000_000).toFixed(0)}M)
+                    (${(d.totalValue / 1_000_000).toFixed(0)}M)
                   </div>
                 </div>
               )
@@ -94,14 +87,11 @@ export function ContractEvolutionChart() {
             return null
           }}
         />
-        <Legend
-          wrapperStyle={{ paddingTop: '20px' }}
-          formatter={() => 'Contract Value'}
-        />
+        <Legend wrapperStyle={{ paddingTop: '20px' }} formatter={() => 'Contract Value'} />
         <Area
           type="monotone"
           dataKey="totalValueB"
-          stroke="#0066CC"
+          stroke={CHART_COLORS_HEX.blue}
           strokeWidth={2}
           fillOpacity={1}
           fill="url(#colorValue)"

@@ -1,0 +1,7 @@
+amendment_id,project_id,amendment_code,amendment_name,effective_date,total_contract_value,lump_sum_value,reimbursable_value,provisional_sum_value,backcharge_value,remarks
+1,1,ORIGINAL,Original Contract,2016-06-01,2432775726,2396417606,0,36358120,0,Original EPCI Contract Award
+2,1,AMD-1,Amendment 1,2017-01-01,2367252730,2330894610,0,36358120,0,Novated contract adjustment
+3,1,AMD-2,Amendment 2,2019-05-01,3140999999,2666580182,438061697,36358120,0,"Scope restructure: VOs 1-9, logistics RCE"
+4,1,AMD-3,Amendment 3,2020-12-01,3628379837,2643421716,731743291,272958120,-19743290,"COVID-19 response, FGRS RCE"
+5,1,AMD-4,Amendment 4,2022-06-01,4264450678,2643421716,1196229990,444542262,-19743290,"COVID FM costs, expanded reimbursable"
+6,1,AMD-5,Amendment 5,2024-01-01,5047871388,2643421716,1957442382,466750580,-19743290,"Final: COVID Tier 4, PP35, commissioning"

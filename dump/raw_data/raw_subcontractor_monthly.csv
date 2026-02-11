@@ -1,0 +1,1173 @@
+year,month,value,metric,excel_row,raw_label,subcontractor
+2019,4,14.527999999999999,achieved_manhours,64,Achieved Mhrs,Meindo
+2019,5,16.083,achieved_manhours,64,Achieved Mhrs,Meindo
+2019,6,24.561,achieved_manhours,64,Achieved Mhrs,Meindo
+2019,7,7.161,achieved_manhours,64,Achieved Mhrs,Meindo
+2019,8,0.0,achieved_manhours,64,Achieved Mhrs,Meindo
+2019,9,2.545,achieved_manhours,64,Achieved Mhrs,Meindo
+2019,10,5.9799999999999995,achieved_manhours,64,Achieved Mhrs,Meindo
+2019,11,39.89,achieved_manhours,64,Achieved Mhrs,Meindo
+2019,12,1186.75,achieved_manhours,64,Achieved Mhrs,Meindo
+2020,1,86.4,achieved_manhours,64,Achieved Mhrs,Meindo
+2020,2,144.642,achieved_manhours,64,Achieved Mhrs,Meindo
+2020,3,6835.677000000001,achieved_manhours,64,Achieved Mhrs,Meindo
+2020,4,0.144,achieved_manhours,64,Achieved Mhrs,Meindo
+2020,5,0.0,achieved_manhours,64,Achieved Mhrs,Meindo
+2020,6,0.0,achieved_manhours,64,Achieved Mhrs,Meindo
+2020,7,1197.044,achieved_manhours,64,Achieved Mhrs,Meindo
+2020,8,4652.831,achieved_manhours,64,Achieved Mhrs,Meindo
+2020,9,1681.217,achieved_manhours,64,Achieved Mhrs,Meindo
+2020,10,131.0,achieved_manhours,64,Achieved Mhrs,Meindo
+2020,11,0.0,achieved_manhours,64,Achieved Mhrs,Meindo
+2020,12,0.0,achieved_manhours,64,Achieved Mhrs,Meindo
+2021,1,0.0,achieved_manhours,64,Achieved Mhrs,Meindo
+2021,2,0.0,achieved_manhours,64,Achieved Mhrs,Meindo
+2021,3,15949.584,achieved_manhours,64,Achieved Mhrs,Meindo
+2021,4,397.789,achieved_manhours,64,Achieved Mhrs,Meindo
+2021,5,12.019,achieved_manhours,64,Achieved Mhrs,Meindo
+2021,6,297.56100000000004,achieved_manhours,64,Achieved Mhrs,Meindo
+2021,7,163.235,achieved_manhours,64,Achieved Mhrs,Meindo
+2021,8,0.0,achieved_manhours,64,Achieved Mhrs,Meindo
+2021,9,492.429,achieved_manhours,64,Achieved Mhrs,Meindo
+2021,10,156.345,achieved_manhours,64,Achieved Mhrs,Meindo
+2021,11,3071.6440000000002,achieved_manhours,64,Achieved Mhrs,Meindo
+2021,12,95.309,achieved_manhours,64,Achieved Mhrs,Meindo
+2022,1,0.0,achieved_manhours,64,Achieved Mhrs,Meindo
+2022,2,0.0,achieved_manhours,64,Achieved Mhrs,Meindo
+2022,3,0.0,achieved_manhours,64,Achieved Mhrs,Meindo
+2022,4,0.0,achieved_manhours,64,Achieved Mhrs,Meindo
+2022,5,0.0,achieved_manhours,64,Achieved Mhrs,Meindo
+2022,6,0.0,achieved_manhours,64,Achieved Mhrs,Meindo
+2022,7,16.366,achieved_manhours,64,Achieved Mhrs,Meindo
+2022,8,0.0,achieved_manhours,64,Achieved Mhrs,Meindo
+2022,9,17.279000000000003,achieved_manhours,64,Achieved Mhrs,Meindo
+2022,10,2.568,achieved_manhours,64,Achieved Mhrs,Meindo
+2022,11,20.919,achieved_manhours,64,Achieved Mhrs,Meindo
+2022,12,79.08,achieved_manhours,64,Achieved Mhrs,Meindo
+2023,1,1.524,achieved_manhours,64,Achieved Mhrs,Meindo
+2023,2,0.289,achieved_manhours,64,Achieved Mhrs,Meindo
+2023,3,2.598,achieved_manhours,64,Achieved Mhrs,Meindo
+2023,4,0.0,achieved_manhours,64,Achieved Mhrs,Meindo
+2023,5,0.0,achieved_manhours,64,Achieved Mhrs,Meindo
+2023,6,0.0,achieved_manhours,64,Achieved Mhrs,Meindo
+2020,10,0.73952044,invoice_value_musd,65,Invoice Value (MUSD),Meindo
+2020,11,1.21140245,invoice_value_musd,65,Invoice Value (MUSD),Meindo
+2020,12,0.0,invoice_value_musd,65,Invoice Value (MUSD),Meindo
+2021,1,0.23732216,invoice_value_musd,65,Invoice Value (MUSD),Meindo
+2021,2,0.0,invoice_value_musd,65,Invoice Value (MUSD),Meindo
+2021,3,0.0,invoice_value_musd,65,Invoice Value (MUSD),Meindo
+2021,4,0.60651439,invoice_value_musd,65,Invoice Value (MUSD),Meindo
+2021,5,0.0,invoice_value_musd,65,Invoice Value (MUSD),Meindo
+2021,6,0.0,invoice_value_musd,65,Invoice Value (MUSD),Meindo
+2021,7,0.0,invoice_value_musd,65,Invoice Value (MUSD),Meindo
+2021,8,2.6232443899999995,invoice_value_musd,65,Invoice Value (MUSD),Meindo
+2021,9,0.20468129999999998,invoice_value_musd,65,Invoice Value (MUSD),Meindo
+2021,10,0.21957769,invoice_value_musd,65,Invoice Value (MUSD),Meindo
+2021,11,0.44227278000000003,invoice_value_musd,65,Invoice Value (MUSD),Meindo
+2021,12,0.1758357,invoice_value_musd,65,Invoice Value (MUSD),Meindo
+2022,1,1.53848377,invoice_value_musd,65,Invoice Value (MUSD),Meindo
+2022,2,3.03423659,invoice_value_musd,65,Invoice Value (MUSD),Meindo
+2022,3,0.0,invoice_value_musd,65,Invoice Value (MUSD),Meindo
+2022,4,0.86559164,invoice_value_musd,65,Invoice Value (MUSD),Meindo
+2022,5,0.8816907700000001,invoice_value_musd,65,Invoice Value (MUSD),Meindo
+2022,6,1.21383213,invoice_value_musd,65,Invoice Value (MUSD),Meindo
+2022,7,0.79724586,invoice_value_musd,65,Invoice Value (MUSD),Meindo
+2022,8,1.0382989,invoice_value_musd,65,Invoice Value (MUSD),Meindo
+2022,9,1.9807161400000002,invoice_value_musd,65,Invoice Value (MUSD),Meindo
+2022,10,0.0,invoice_value_musd,65,Invoice Value (MUSD),Meindo
+2022,11,0.40263297,invoice_value_musd,65,Invoice Value (MUSD),Meindo
+2022,12,0.30864052000000003,invoice_value_musd,65,Invoice Value (MUSD),Meindo
+2023,1,0.52458171,invoice_value_musd,65,Invoice Value (MUSD),Meindo
+2023,2,0.0,invoice_value_musd,65,Invoice Value (MUSD),Meindo
+2023,3,0.15793393,invoice_value_musd,65,Invoice Value (MUSD),Meindo
+2023,4,0.0,invoice_value_musd,65,Invoice Value (MUSD),Meindo
+2023,5,0.0,invoice_value_musd,65,Invoice Value (MUSD),Meindo
+2023,6,0.0,invoice_value_musd,65,Invoice Value (MUSD),Meindo
+2023,7,0.69625787,invoice_value_musd,65,Invoice Value (MUSD),Meindo
+2020,9,0.23677766190482835,actual_vowd_musd,66,Actual/VOWD,Meindo
+2020,10,0.1102020260134768,actual_vowd_musd,66,Actual/VOWD,Meindo
+2020,11,0.2844887138669895,actual_vowd_musd,66,Actual/VOWD,Meindo
+2020,12,0.22252336400517275,actual_vowd_musd,66,Actual/VOWD,Meindo
+2021,1,0.0,actual_vowd_musd,66,Actual/VOWD,Meindo
+2021,2,0.0,actual_vowd_musd,66,Actual/VOWD,Meindo
+2021,3,0.0,actual_vowd_musd,66,Actual/VOWD,Meindo
+2021,4,0.41571940266725216,actual_vowd_musd,66,Actual/VOWD,Meindo
+2021,5,0.8469115365388563,actual_vowd_musd,66,Actual/VOWD,Meindo
+2021,6,0.7215850749933843,actual_vowd_musd,66,Actual/VOWD,Meindo
+2021,7,0.686225637918162,actual_vowd_musd,66,Actual/VOWD,Meindo
+2021,8,0.0,actual_vowd_musd,66,Actual/VOWD,Meindo
+2021,9,0.14569759678759178,actual_vowd_musd,66,Actual/VOWD,Meindo
+2021,10,0.1884512735934231,actual_vowd_musd,66,Actual/VOWD,Meindo
+2021,11,0.3603850847665711,actual_vowd_musd,66,Actual/VOWD,Meindo
+2021,12,0.1394167730073976,actual_vowd_musd,66,Actual/VOWD,Meindo
+2022,1,1.110022665513074,actual_vowd_musd,66,Actual/VOWD,Meindo
+2022,2,2.7168245061478067,actual_vowd_musd,66,Actual/VOWD,Meindo
+2022,3,0.7120525797978451,actual_vowd_musd,66,Actual/VOWD,Meindo
+2022,4,0.6124718413781609,actual_vowd_musd,66,Actual/VOWD,Meindo
+2022,5,0.9961222059146712,actual_vowd_musd,66,Actual/VOWD,Meindo
+2022,6,2.3067301240651883,actual_vowd_musd,66,Actual/VOWD,Meindo
+2022,7,0.8800994600359661,actual_vowd_musd,66,Actual/VOWD,Meindo
+2022,8,0.708769432318096,actual_vowd_musd,66,Actual/VOWD,Meindo
+2022,9,0.8762646557079796,actual_vowd_musd,66,Actual/VOWD,Meindo
+2022,10,0.30695284511762666,actual_vowd_musd,66,Actual/VOWD,Meindo
+2022,11,0.22441533540694525,actual_vowd_musd,66,Actual/VOWD,Meindo
+2022,12,0.8363661269431626,actual_vowd_musd,66,Actual/VOWD,Meindo
+2023,1,0.302767988877977,actual_vowd_musd,66,Actual/VOWD,Meindo
+2023,2,0.0,actual_vowd_musd,66,Actual/VOWD,Meindo
+2023,3,0.07030837559071267,actual_vowd_musd,66,Actual/VOWD,Meindo
+2023,4,0.05478127883981542,actual_vowd_musd,66,Actual/VOWD,Meindo
+2023,5,0.0,actual_vowd_musd,66,Actual/VOWD,Meindo
+2023,6,0.0,actual_vowd_musd,66,Actual/VOWD,Meindo
+2023,7,0.77772800176225,actual_vowd_musd,66,Actual/VOWD,Meindo
+2023,8,0.0,actual_vowd_musd,66,Actual/VOWD,Meindo
+2019,8,265.0,pob_actual,67,POB,Meindo
+2019,9,296.1666666666667,pob_actual,67,POB,Meindo
+2019,10,497.26666666666665,pob_actual,67,POB,Meindo
+2019,11,543.6333333333333,pob_actual,67,POB,Meindo
+2019,12,766.8666666666667,pob_actual,67,POB,Meindo
+2020,1,768.0333333333333,pob_actual,67,POB,Meindo
+2020,2,712.5333333333333,pob_actual,67,POB,Meindo
+2020,3,594.1666666666666,pob_actual,67,POB,Meindo
+2020,4,64.86666666666666,pob_actual,67,POB,Meindo
+2020,5,90.53333333333333,pob_actual,67,POB,Meindo
+2020,6,184.0,pob_actual,67,POB,Meindo
+2020,7,243.53333333333333,pob_actual,67,POB,Meindo
+2020,8,254.96666666666667,pob_actual,67,POB,Meindo
+2020,9,220.33333333333334,pob_actual,67,POB,Meindo
+2020,10,251.43333333333334,pob_actual,67,POB,Meindo
+2020,11,452.3,pob_actual,67,POB,Meindo
+2020,12,251.8,pob_actual,67,POB,Meindo
+2021,1,13.633333333333333,pob_actual,67,POB,Meindo
+2021,2,16.466666666666665,pob_actual,67,POB,Meindo
+2021,3,95.5,pob_actual,67,POB,Meindo
+2021,4,205.93333333333334,pob_actual,67,POB,Meindo
+2021,5,329.5,pob_actual,67,POB,Meindo
+2021,6,391.23333333333335,pob_actual,67,POB,Meindo
+2021,7,405.23333333333335,pob_actual,67,POB,Meindo
+2021,8,273.76666666666665,pob_actual,67,POB,Meindo
+2021,9,239.9,pob_actual,67,POB,Meindo
+2021,10,372.06666666666666,pob_actual,67,POB,Meindo
+2021,11,692.0,pob_actual,67,POB,Meindo
+2021,12,814.7333333333333,pob_actual,67,POB,Meindo
+2022,1,788.9,pob_actual,67,POB,Meindo
+2022,2,768.7333333333333,pob_actual,67,POB,Meindo
+2022,3,950.6666666666666,pob_actual,67,POB,Meindo
+2022,4,884.3666666666667,pob_actual,67,POB,Meindo
+2022,5,952.9666666666667,pob_actual,67,POB,Meindo
+2022,6,926.9,pob_actual,67,POB,Meindo
+2022,7,929.6666666666666,pob_actual,67,POB,Meindo
+2022,8,804.4666666666667,pob_actual,67,POB,Meindo
+2022,9,789.4666666666667,pob_actual,67,POB,Meindo
+2022,10,725.8333333333334,pob_actual,67,POB,Meindo
+2022,11,506.43333333333334,pob_actual,67,POB,Meindo
+2022,12,372.9,pob_actual,67,POB,Meindo
+2023,1,225.73333333333332,pob_actual,67,POB,Meindo
+2023,2,135.53333333333333,pob_actual,67,POB,Meindo
+2023,3,147.46666666666667,pob_actual,67,POB,Meindo
+2023,4,104.76666666666667,pob_actual,67,POB,Meindo
+2023,5,39.666666666666664,pob_actual,67,POB,Meindo
+2023,6,16.5,pob_actual,67,POB,Meindo
+2019,4,0.0,cumulative_progress_plan,68,Plan Cumm.Prog,Meindo
+2019,5,0.0,cumulative_progress_plan,68,Plan Cumm.Prog,Meindo
+2019,6,0.007505440513044852,cumulative_progress_plan,68,Plan Cumm.Prog,Meindo
+2019,7,0.021631634608419797,cumulative_progress_plan,68,Plan Cumm.Prog,Meindo
+2019,8,0.04996344258637726,cumulative_progress_plan,68,Plan Cumm.Prog,Meindo
+2019,9,0.08304015545808527,cumulative_progress_plan,68,Plan Cumm.Prog,Meindo
+2019,10,0.13099818821303333,cumulative_progress_plan,68,Plan Cumm.Prog,Meindo
+2019,11,0.22765929674299493,cumulative_progress_plan,68,Plan Cumm.Prog,Meindo
+2019,12,0.29548200057376584,cumulative_progress_plan,68,Plan Cumm.Prog,Meindo
+2020,1,0.36544575801189577,cumulative_progress_plan,68,Plan Cumm.Prog,Meindo
+2020,2,0.45444907142729396,cumulative_progress_plan,68,Plan Cumm.Prog,Meindo
+2020,3,0.5089570697400259,cumulative_progress_plan,68,Plan Cumm.Prog,Meindo
+2020,4,0.5143094422479801,cumulative_progress_plan,68,Plan Cumm.Prog,Meindo
+2020,5,0.5158999843892306,cumulative_progress_plan,68,Plan Cumm.Prog,Meindo
+2020,6,0.5225325358848762,cumulative_progress_plan,68,Plan Cumm.Prog,Meindo
+2020,7,0.52470283388403,cumulative_progress_plan,68,Plan Cumm.Prog,Meindo
+2020,8,0.5796057934302983,cumulative_progress_plan,68,Plan Cumm.Prog,Meindo
+2020,9,0.5917718010561546,cumulative_progress_plan,68,Plan Cumm.Prog,Meindo
+2020,10,0.6206512181379849,cumulative_progress_plan,68,Plan Cumm.Prog,Meindo
+2020,11,0.6429051486904549,cumulative_progress_plan,68,Plan Cumm.Prog,Meindo
+2020,12,0.7168924292273481,cumulative_progress_plan,68,Plan Cumm.Prog,Meindo
+2021,1,0.717,cumulative_progress_plan,68,Plan Cumm.Prog,Meindo
+2021,2,0.718,cumulative_progress_plan,68,Plan Cumm.Prog,Meindo
+2021,3,0.718,cumulative_progress_plan,68,Plan Cumm.Prog,Meindo
+2021,4,0.719,cumulative_progress_plan,68,Plan Cumm.Prog,Meindo
+2021,5,0.72,cumulative_progress_plan,68,Plan Cumm.Prog,Meindo
+2021,6,0.721,cumulative_progress_plan,68,Plan Cumm.Prog,Meindo
+2021,7,0.722,cumulative_progress_plan,68,Plan Cumm.Prog,Meindo
+2021,8,0.722689217283614,cumulative_progress_plan,68,Plan Cumm.Prog,Meindo
+2021,9,0.753926297032108,cumulative_progress_plan,68,Plan Cumm.Prog,Meindo
+2021,10,0.755,cumulative_progress_plan,68,Plan Cumm.Prog,Meindo
+2021,11,0.756,cumulative_progress_plan,68,Plan Cumm.Prog,Meindo
+2021,12,0.7573728633933975,cumulative_progress_plan,68,Plan Cumm.Prog,Meindo
+2022,1,0.8446946431049542,cumulative_progress_plan,68,Plan Cumm.Prog,Meindo
+2022,2,0.9043714279231119,cumulative_progress_plan,68,Plan Cumm.Prog,Meindo
+2022,3,0.9382325770227743,cumulative_progress_plan,68,Plan Cumm.Prog,Meindo
+2022,4,0.9763144523744245,cumulative_progress_plan,68,Plan Cumm.Prog,Meindo
+2022,5,0.9888143322481762,cumulative_progress_plan,68,Plan Cumm.Prog,Meindo
+2022,6,0.9920311452507113,cumulative_progress_plan,68,Plan Cumm.Prog,Meindo
+2022,7,0.9960938262448601,cumulative_progress_plan,68,Plan Cumm.Prog,Meindo
+2022,8,0.997699655824843,cumulative_progress_plan,68,Plan Cumm.Prog,Meindo
+2022,9,0.999699002206269,cumulative_progress_plan,68,Plan Cumm.Prog,Meindo
+2022,10,0.9997074721266157,cumulative_progress_plan,68,Plan Cumm.Prog,Meindo
+2022,11,0.9997088221940771,cumulative_progress_plan,68,Plan Cumm.Prog,Meindo
+2022,12,0.9997088221940771,cumulative_progress_plan,68,Plan Cumm.Prog,Meindo
+2023,1,0.9997703832669157,cumulative_progress_plan,68,Plan Cumm.Prog,Meindo
+2023,2,0.9998944692694945,cumulative_progress_plan,68,Plan Cumm.Prog,Meindo
+2023,3,0.9999779831293136,cumulative_progress_plan,68,Plan Cumm.Prog,Meindo
+2023,4,0.9999995062987836,cumulative_progress_plan,68,Plan Cumm.Prog,Meindo
+2023,5,0.9999999960182255,cumulative_progress_plan,68,Plan Cumm.Prog,Meindo
+2023,6,0.9999999960182255,cumulative_progress_plan,68,Plan Cumm.Prog,Meindo
+2023,7,0.9999999960182255,cumulative_progress_plan,68,Plan Cumm.Prog,Meindo
+2023,8,0.9999999960182255,cumulative_progress_plan,68,Plan Cumm.Prog,Meindo
+2023,9,0.9999999960182255,cumulative_progress_plan,68,Plan Cumm.Prog,Meindo
+2019,4,0.0,cumulative_progress_actual,69,Actual Cumm. Prog,Meindo
+2019,5,0.0,cumulative_progress_actual,69,Actual Cumm. Prog,Meindo
+2019,6,2.627683452448057e-05,cumulative_progress_actual,69,Actual Cumm. Prog,Meindo
+2019,7,0.00018615090476297328,cumulative_progress_actual,69,Actual Cumm. Prog,Meindo
+2019,8,0.0034873795110171506,cumulative_progress_actual,69,Actual Cumm. Prog,Meindo
+2019,9,0.019297648180012738,cumulative_progress_actual,69,Actual Cumm. Prog,Meindo
+2019,10,0.052595194486311975,cumulative_progress_actual,69,Actual Cumm. Prog,Meindo
+2019,11,0.13271138483845119,cumulative_progress_actual,69,Actual Cumm. Prog,Meindo
+2019,12,0.2325379955246979,cumulative_progress_actual,69,Actual Cumm. Prog,Meindo
+2020,1,0.33432204855296965,cumulative_progress_actual,69,Actual Cumm. Prog,Meindo
+2020,2,0.45036106180821267,cumulative_progress_actual,69,Actual Cumm. Prog,Meindo
+2020,3,0.5209380984163268,cumulative_progress_actual,69,Actual Cumm. Prog,Meindo
+2020,4,0.5209602807970033,cumulative_progress_actual,69,Actual Cumm. Prog,Meindo
+2020,5,0.5210784495508727,cumulative_progress_actual,69,Actual Cumm. Prog,Meindo
+2020,6,0.5285661867103005,cumulative_progress_actual,69,Actual Cumm. Prog,Meindo
+2020,7,0.5817903807939164,cumulative_progress_actual,69,Actual Cumm. Prog,Meindo
+2020,8,0.5857471646368492,cumulative_progress_actual,69,Actual Cumm. Prog,Meindo
+2020,9,0.594895294565264,cumulative_progress_actual,69,Actual Cumm. Prog,Meindo
+2020,10,0.6251749529064156,cumulative_progress_actual,69,Actual Cumm. Prog,Meindo
+2020,11,0.6481685968523445,cumulative_progress_actual,69,Actual Cumm. Prog,Meindo
+2020,12,0.6498629054834992,cumulative_progress_actual,69,Actual Cumm. Prog,Meindo
+2021,1,0.6498629054834992,cumulative_progress_actual,69,Actual Cumm. Prog,Meindo
+2021,2,0.6498629054834992,cumulative_progress_actual,69,Actual Cumm. Prog,Meindo
+2021,3,0.651,cumulative_progress_actual,69,Actual Cumm. Prog,Meindo
+2021,4,0.652,cumulative_progress_actual,69,Actual Cumm. Prog,Meindo
+2021,5,0.655,cumulative_progress_actual,69,Actual Cumm. Prog,Meindo
+2021,6,0.658,cumulative_progress_actual,69,Actual Cumm. Prog,Meindo
+2021,7,0.66,cumulative_progress_actual,69,Actual Cumm. Prog,Meindo
+2021,8,0.67,cumulative_progress_actual,69,Actual Cumm. Prog,Meindo
+2021,9,0.68,cumulative_progress_actual,69,Actual Cumm. Prog,Meindo
+2021,10,0.69,cumulative_progress_actual,69,Actual Cumm. Prog,Meindo
+2021,11,0.7193779599522161,cumulative_progress_actual,69,Actual Cumm. Prog,Meindo
+2021,12,0.7450035123569074,cumulative_progress_actual,69,Actual Cumm. Prog,Meindo
+2022,1,0.7926865986014868,cumulative_progress_actual,69,Actual Cumm. Prog,Meindo
+2022,2,0.8434481462646072,cumulative_progress_actual,69,Actual Cumm. Prog,Meindo
+2022,3,0.880323599427119,cumulative_progress_actual,69,Actual Cumm. Prog,Meindo
+2022,4,0.929709017895483,cumulative_progress_actual,69,Actual Cumm. Prog,Meindo
+2022,5,0.9550238185266561,cumulative_progress_actual,69,Actual Cumm. Prog,Meindo
+2022,6,0.9701165752123301,cumulative_progress_actual,69,Actual Cumm. Prog,Meindo
+2022,7,0.9777475390469578,cumulative_progress_actual,69,Actual Cumm. Prog,Meindo
+2022,8,0.9826570891052392,cumulative_progress_actual,69,Actual Cumm. Prog,Meindo
+2022,9,0.9902591813748587,cumulative_progress_actual,69,Actual Cumm. Prog,Meindo
+2022,10,0.9919188205293635,cumulative_progress_actual,69,Actual Cumm. Prog,Meindo
+2022,11,0.9929798611410929,cumulative_progress_actual,69,Actual Cumm. Prog,Meindo
+2022,12,0.9955170029645052,cumulative_progress_actual,69,Actual Cumm. Prog,Meindo
+2023,1,0.9999094580234119,cumulative_progress_actual,69,Actual Cumm. Prog,Meindo
+2023,2,0.9999774555679148,cumulative_progress_actual,69,Actual Cumm. Prog,Meindo
+2023,3,0.9999806109193188,cumulative_progress_actual,69,Actual Cumm. Prog,Meindo
+2023,4,0.9999950932588132,cumulative_progress_actual,69,Actual Cumm. Prog,Meindo
+2023,5,0.9999956575491701,cumulative_progress_actual,69,Actual Cumm. Prog,Meindo
+2023,6,0.9999956575491701,cumulative_progress_actual,69,Actual Cumm. Prog,Meindo
+2023,7,1.0,cumulative_progress_actual,69,Actual Cumm. Prog,Meindo
+2023,8,1.0000000000744333,cumulative_progress_actual,69,Actual Cumm. Prog,Meindo
+2023,9,1.0000000000744333,cumulative_progress_actual,69,Actual Cumm. Prog,Meindo
+2019,4,0.0,unknown_70,70,Plan per Month,Meindo
+2019,5,0.0,unknown_70,70,Plan per Month,Meindo
+2019,6,0.007505440513044852,unknown_70,70,Plan per Month,Meindo
+2019,7,0.014126194095374946,unknown_70,70,Plan per Month,Meindo
+2019,8,0.028331807977957466,unknown_70,70,Plan per Month,Meindo
+2019,9,0.033076712871708006,unknown_70,70,Plan per Month,Meindo
+2019,10,0.04795803275494806,unknown_70,70,Plan per Month,Meindo
+2019,11,0.0966611085299616,unknown_70,70,Plan per Month,Meindo
+2019,12,0.06782270383077091,unknown_70,70,Plan per Month,Meindo
+2020,1,0.06996375743812994,unknown_70,70,Plan per Month,Meindo
+2020,2,0.08900331341539819,unknown_70,70,Plan per Month,Meindo
+2020,3,0.0545079983127319,unknown_70,70,Plan per Month,Meindo
+2020,4,0.005352372507954284,unknown_70,70,Plan per Month,Meindo
+2020,5,0.0015905421412504284,unknown_70,70,Plan per Month,Meindo
+2020,6,0.006632551495645678,unknown_70,70,Plan per Month,Meindo
+2020,7,0.002170297999153803,unknown_70,70,Plan per Month,Meindo
+2020,8,0.054902959546268226,unknown_70,70,Plan per Month,Meindo
+2020,9,0.01216600762585629,unknown_70,70,Plan per Month,Meindo
+2020,10,0.028879417081830283,unknown_70,70,Plan per Month,Meindo
+2020,11,0.022253930552470047,unknown_70,70,Plan per Month,Meindo
+2020,12,0.07398728053689319,unknown_70,70,Plan per Month,Meindo
+2021,1,0.00010757077265188819,unknown_70,70,Plan per Month,Meindo
+2021,2,0.0010000000000000009,unknown_70,70,Plan per Month,Meindo
+2021,3,0.0,unknown_70,70,Plan per Month,Meindo
+2021,4,0.0010000000000000009,unknown_70,70,Plan per Month,Meindo
+2021,5,0.0010000000000000009,unknown_70,70,Plan per Month,Meindo
+2021,6,0.0010000000000000009,unknown_70,70,Plan per Month,Meindo
+2021,7,0.0010000000000000009,unknown_70,70,Plan per Month,Meindo
+2021,8,0.0006892172836140409,unknown_70,70,Plan per Month,Meindo
+2021,9,0.03123707974849399,unknown_70,70,Plan per Month,Meindo
+2021,10,0.0010737029678919985,unknown_70,70,Plan per Month,Meindo
+2021,11,0.0010000000000000009,unknown_70,70,Plan per Month,Meindo
+2021,12,0.0013728633933974832,unknown_70,70,Plan per Month,Meindo
+2022,1,0.08732177971155675,unknown_70,70,Plan per Month,Meindo
+2022,2,0.059676784818157635,unknown_70,70,Plan per Month,Meindo
+2022,3,0.033861149099662424,unknown_70,70,Plan per Month,Meindo
+2022,4,0.038081875351650196,unknown_70,70,Plan per Month,Meindo
+2022,5,0.012499879873751674,unknown_70,70,Plan per Month,Meindo
+2022,6,0.0032168130025351793,unknown_70,70,Plan per Month,Meindo
+2022,7,0.0040626809941487485,unknown_70,70,Plan per Month,Meindo
+2022,8,0.001605829579982898,unknown_70,70,Plan per Month,Meindo
+2022,9,0.0019993463814259593,unknown_70,70,Plan per Month,Meindo
+2022,10,8.4699203467542e-06,unknown_70,70,Plan per Month,Meindo
+2022,11,1.3500674613808883e-06,unknown_70,70,Plan per Month,Meindo
+2022,12,0.0,unknown_70,70,Plan per Month,Meindo
+2023,1,6.156107283861179e-05,unknown_70,70,Plan per Month,Meindo
+2023,2,0.00012408600257884927,unknown_70,70,Plan per Month,Meindo
+2023,3,8.351385981908432e-05,unknown_70,70,Plan per Month,Meindo
+2023,4,2.1523169470016867e-05,unknown_70,70,Plan per Month,Meindo
+2023,5,4.897194418873596e-07,unknown_70,70,Plan per Month,Meindo
+2023,6,0.0,unknown_70,70,Plan per Month,Meindo
+2023,7,0.0,unknown_70,70,Plan per Month,Meindo
+2023,8,0.0,unknown_70,70,Plan per Month,Meindo
+2023,9,0.0,unknown_70,70,Plan per Month,Meindo
+2019,4,0.0,unknown_71,71,Actual per Month,Meindo
+2019,5,0.0,unknown_71,71,Actual per Month,Meindo
+2019,6,2.627683452448057e-05,unknown_71,71,Actual per Month,Meindo
+2019,7,0.0001598740702384927,unknown_71,71,Actual per Month,Meindo
+2019,8,0.0033012286062541773,unknown_71,71,Actual per Month,Meindo
+2019,9,0.015810268668995587,unknown_71,71,Actual per Month,Meindo
+2019,10,0.03329754630629923,unknown_71,71,Actual per Month,Meindo
+2019,11,0.08011619035213921,unknown_71,71,Actual per Month,Meindo
+2019,12,0.09982661068624671,unknown_71,71,Actual per Month,Meindo
+2020,1,0.10178405302827176,unknown_71,71,Actual per Month,Meindo
+2020,2,0.11603901325524302,unknown_71,71,Actual per Month,Meindo
+2020,3,0.0705770366081141,unknown_71,71,Actual per Month,Meindo
+2020,4,2.2182380676527558e-05,unknown_71,71,Actual per Month,Meindo
+2020,5,0.00011816875386938541,unknown_71,71,Actual per Month,Meindo
+2020,6,0.007487737159427854,unknown_71,71,Actual per Month,Meindo
+2020,7,0.053224194083615894,unknown_71,71,Actual per Month,Meindo
+2020,8,0.003956783842932743,unknown_71,71,Actual per Month,Meindo
+2020,9,0.00914812992841485,unknown_71,71,Actual per Month,Meindo
+2020,10,0.03027965834115154,unknown_71,71,Actual per Month,Meindo
+2020,11,0.022993643945928954,unknown_71,71,Actual per Month,Meindo
+2020,12,0.0016943086311547173,unknown_71,71,Actual per Month,Meindo
+2021,1,0.0,unknown_71,71,Actual per Month,Meindo
+2021,2,0.0,unknown_71,71,Actual per Month,Meindo
+2021,3,0.0011370945165007917,unknown_71,71,Actual per Month,Meindo
+2021,4,0.0010000000000000009,unknown_71,71,Actual per Month,Meindo
+2021,5,0.0030000000000000027,unknown_71,71,Actual per Month,Meindo
+2021,6,0.0030000000000000027,unknown_71,71,Actual per Month,Meindo
+2021,7,0.0020000000000000018,unknown_71,71,Actual per Month,Meindo
+2021,8,0.010000000000000009,unknown_71,71,Actual per Month,Meindo
+2021,9,0.010000000000000009,unknown_71,71,Actual per Month,Meindo
+2021,10,0.009999999999999898,unknown_71,71,Actual per Month,Meindo
+2021,11,0.02937795995221615,unknown_71,71,Actual per Month,Meindo
+2021,12,0.025625552404691332,unknown_71,71,Actual per Month,Meindo
+2022,1,0.0476830862445794,unknown_71,71,Actual per Month,Meindo
+2022,2,0.050761547663120354,unknown_71,71,Actual per Month,Meindo
+2022,3,0.03687545316251184,unknown_71,71,Actual per Month,Meindo
+2022,4,0.04938541846836397,unknown_71,71,Actual per Month,Meindo
+2022,5,0.025314800631173084,unknown_71,71,Actual per Month,Meindo
+2022,6,0.015092756685674003,unknown_71,71,Actual per Month,Meindo
+2022,7,0.007630963834627691,unknown_71,71,Actual per Month,Meindo
+2022,8,0.00490955005828142,unknown_71,71,Actual per Month,Meindo
+2022,9,0.007602092269619498,unknown_71,71,Actual per Month,Meindo
+2022,10,0.001659639154504844,unknown_71,71,Actual per Month,Meindo
+2022,11,0.0010610406117294024,unknown_71,71,Actual per Month,Meindo
+2022,12,0.002537141823412248,unknown_71,71,Actual per Month,Meindo
+2023,1,0.00439245505890673,unknown_71,71,Actual per Month,Meindo
+2023,2,6.799754450292905e-05,unknown_71,71,Actual per Month,Meindo
+2023,3,3.155351403938411e-06,unknown_71,71,Actual per Month,Meindo
+2023,4,1.4482339494414909e-05,unknown_71,71,Actual per Month,Meindo
+2023,5,5.64290356885877e-07,unknown_71,71,Actual per Month,Meindo
+2023,6,0.0,unknown_71,71,Actual per Month,Meindo
+2023,7,4.342450829919464e-06,unknown_71,71,Actual per Month,Meindo
+2023,8,7.443334837375915e-11,unknown_71,71,Actual per Month,Meindo
+2023,9,0.0,unknown_71,71,Actual per Month,Meindo
+2019,4,0.0,achieved_manhours,78,Achieved Mhrs,Penta
+2019,5,0.0,achieved_manhours,78,Achieved Mhrs,Penta
+2019,6,1946.0,achieved_manhours,78,Achieved Mhrs,Penta
+2019,7,5.893000000000001,achieved_manhours,78,Achieved Mhrs,Penta
+2019,8,2.533,achieved_manhours,78,Achieved Mhrs,Penta
+2019,9,2.1159999999999997,achieved_manhours,78,Achieved Mhrs,Penta
+2019,10,50.794,achieved_manhours,78,Achieved Mhrs,Penta
+2019,11,24.116,achieved_manhours,78,Achieved Mhrs,Penta
+2019,12,10.446,achieved_manhours,78,Achieved Mhrs,Penta
+2020,1,568.017,achieved_manhours,78,Achieved Mhrs,Penta
+2020,2,147.849,achieved_manhours,78,Achieved Mhrs,Penta
+2020,3,2639.476,achieved_manhours,78,Achieved Mhrs,Penta
+2020,4,1701.214,achieved_manhours,78,Achieved Mhrs,Penta
+2020,5,934.598,achieved_manhours,78,Achieved Mhrs,Penta
+2020,6,60.488,achieved_manhours,78,Achieved Mhrs,Penta
+2020,7,1882.8029999999999,achieved_manhours,78,Achieved Mhrs,Penta
+2020,8,3563.55,achieved_manhours,78,Achieved Mhrs,Penta
+2020,9,1552.291,achieved_manhours,78,Achieved Mhrs,Penta
+2020,10,106.0,achieved_manhours,78,Achieved Mhrs,Penta
+2020,11,0.0,achieved_manhours,78,Achieved Mhrs,Penta
+2020,12,0.0,achieved_manhours,78,Achieved Mhrs,Penta
+2021,1,0.0,achieved_manhours,78,Achieved Mhrs,Penta
+2021,2,0.0,achieved_manhours,78,Achieved Mhrs,Penta
+2021,3,0.0,achieved_manhours,78,Achieved Mhrs,Penta
+2021,4,246.666,achieved_manhours,78,Achieved Mhrs,Penta
+2021,5,102.165,achieved_manhours,78,Achieved Mhrs,Penta
+2021,6,22.492,achieved_manhours,78,Achieved Mhrs,Penta
+2021,7,189.808,achieved_manhours,78,Achieved Mhrs,Penta
+2021,8,0.0,achieved_manhours,78,Achieved Mhrs,Penta
+2021,9,45.169000000000004,achieved_manhours,78,Achieved Mhrs,Penta
+2021,10,43.489,achieved_manhours,78,Achieved Mhrs,Penta
+2021,11,90.22,achieved_manhours,78,Achieved Mhrs,Penta
+2021,12,534.0350000000001,achieved_manhours,78,Achieved Mhrs,Penta
+2022,1,0.0,achieved_manhours,78,Achieved Mhrs,Penta
+2022,2,0.0,achieved_manhours,78,Achieved Mhrs,Penta
+2022,3,0.0,achieved_manhours,78,Achieved Mhrs,Penta
+2022,4,0.0,achieved_manhours,78,Achieved Mhrs,Penta
+2022,5,0.0,achieved_manhours,78,Achieved Mhrs,Penta
+2022,6,0.0,achieved_manhours,78,Achieved Mhrs,Penta
+2022,7,0.0,achieved_manhours,78,Achieved Mhrs,Penta
+2022,8,0.0,achieved_manhours,78,Achieved Mhrs,Penta
+2022,9,5.781000000000001,achieved_manhours,78,Achieved Mhrs,Penta
+2022,10,0.542,achieved_manhours,78,Achieved Mhrs,Penta
+2022,11,0.0,achieved_manhours,78,Achieved Mhrs,Penta
+2022,12,0.0,achieved_manhours,78,Achieved Mhrs,Penta
+2023,1,0.0,achieved_manhours,78,Achieved Mhrs,Penta
+2023,2,0.0,achieved_manhours,78,Achieved Mhrs,Penta
+2023,3,0.0,achieved_manhours,78,Achieved Mhrs,Penta
+2023,4,0.0,achieved_manhours,78,Achieved Mhrs,Penta
+2023,5,0.0,achieved_manhours,78,Achieved Mhrs,Penta
+2023,6,0.0,achieved_manhours,78,Achieved Mhrs,Penta
+2020,9,0.60099134,invoice_value_musd,79,Invoice Value (MUSD),Penta
+2020,10,1.76721398,invoice_value_musd,79,Invoice Value (MUSD),Penta
+2020,11,0.0,invoice_value_musd,79,Invoice Value (MUSD),Penta
+2020,12,0.95793368,invoice_value_musd,79,Invoice Value (MUSD),Penta
+2021,1,0.0,invoice_value_musd,79,Invoice Value (MUSD),Penta
+2021,2,0.0,invoice_value_musd,79,Invoice Value (MUSD),Penta
+2021,3,0.0,invoice_value_musd,79,Invoice Value (MUSD),Penta
+2021,4,0.77735659,invoice_value_musd,79,Invoice Value (MUSD),Penta
+2021,5,0.48933671999999995,invoice_value_musd,79,Invoice Value (MUSD),Penta
+2021,6,0.12363951,invoice_value_musd,79,Invoice Value (MUSD),Penta
+2021,7,0.0,invoice_value_musd,79,Invoice Value (MUSD),Penta
+2021,8,0.0,invoice_value_musd,79,Invoice Value (MUSD),Penta
+2021,9,0.0,invoice_value_musd,79,Invoice Value (MUSD),Penta
+2021,10,0.34066669,invoice_value_musd,79,Invoice Value (MUSD),Penta
+2021,11,1.16348919,invoice_value_musd,79,Invoice Value (MUSD),Penta
+2021,12,1.02541566,invoice_value_musd,79,Invoice Value (MUSD),Penta
+2022,1,0.85349504,invoice_value_musd,79,Invoice Value (MUSD),Penta
+2022,2,1.31839156,invoice_value_musd,79,Invoice Value (MUSD),Penta
+2022,3,1.3988631200000001,invoice_value_musd,79,Invoice Value (MUSD),Penta
+2022,4,1.73737493,invoice_value_musd,79,Invoice Value (MUSD),Penta
+2022,5,1.31839156,invoice_value_musd,79,Invoice Value (MUSD),Penta
+2022,6,0.5160959,invoice_value_musd,79,Invoice Value (MUSD),Penta
+2022,7,1.70325956,invoice_value_musd,79,Invoice Value (MUSD),Penta
+2022,8,1.24210555,invoice_value_musd,79,Invoice Value (MUSD),Penta
+2022,9,5.44269101,invoice_value_musd,79,Invoice Value (MUSD),Penta
+2022,10,2.27653532,invoice_value_musd,79,Invoice Value (MUSD),Penta
+2022,11,1.64816838,invoice_value_musd,79,Invoice Value (MUSD),Penta
+2022,12,0.0,invoice_value_musd,79,Invoice Value (MUSD),Penta
+2023,1,0.0,invoice_value_musd,79,Invoice Value (MUSD),Penta
+2023,2,2.63336196,invoice_value_musd,79,Invoice Value (MUSD),Penta
+2023,3,1.2902013300000001,invoice_value_musd,79,Invoice Value (MUSD),Penta
+2023,4,0.66209433,invoice_value_musd,79,Invoice Value (MUSD),Penta
+2023,5,0.99901509,invoice_value_musd,79,Invoice Value (MUSD),Penta
+2023,6,0.0,invoice_value_musd,79,Invoice Value (MUSD),Penta
+2023,7,1.83480314,invoice_value_musd,79,Invoice Value (MUSD),Penta
+2020,9,0.60040435854098,actual_vowd_musd,80,Actual/VOWD,Penta
+2020,10,1.6153913245748184,actual_vowd_musd,80,Actual/VOWD,Penta
+2020,11,1.4157085242928291,actual_vowd_musd,80,Actual/VOWD,Penta
+2020,12,0.0,actual_vowd_musd,80,Actual/VOWD,Penta
+2021,1,0.0,actual_vowd_musd,80,Actual/VOWD,Penta
+2021,2,0.0,actual_vowd_musd,80,Actual/VOWD,Penta
+2021,3,0.0,actual_vowd_musd,80,Actual/VOWD,Penta
+2021,4,1.2502634437879587,actual_vowd_musd,80,Actual/VOWD,Penta
+2021,5,0.9471115656003076,actual_vowd_musd,80,Actual/VOWD,Penta
+2021,6,0.5814143620868678,actual_vowd_musd,80,Actual/VOWD,Penta
+2021,7,0.0,actual_vowd_musd,80,Actual/VOWD,Penta
+2021,8,0.0,actual_vowd_musd,80,Actual/VOWD,Penta
+2021,9,0.0,actual_vowd_musd,80,Actual/VOWD,Penta
+2021,10,1.0419259534247407,actual_vowd_musd,80,Actual/VOWD,Penta
+2021,11,1.3807353401735882,actual_vowd_musd,80,Actual/VOWD,Penta
+2021,12,1.025415659562001,actual_vowd_musd,80,Actual/VOWD,Penta
+2022,1,0.8534950416758221,actual_vowd_musd,80,Actual/VOWD,Penta
+2022,2,1.3988631250274663,actual_vowd_musd,80,Actual/VOWD,Penta
+2022,3,1.7373749312239066,actual_vowd_musd,80,Actual/VOWD,Penta
+2022,4,1.3183915622940012,actual_vowd_musd,80,Actual/VOWD,Penta
+2022,5,1.8344874614370466,actual_vowd_musd,80,Actual/VOWD,Penta
+2022,6,1.7032595575331428,actual_vowd_musd,80,Actual/VOWD,Penta
+2022,7,2.560497111184355,actual_vowd_musd,80,Actual/VOWD,Penta
+2022,8,3.382519352862374,actual_vowd_musd,80,Actual/VOWD,Penta
+2022,9,10.15111042850465,actual_vowd_musd,80,Actual/VOWD,Penta
+2022,10,2.695590436680583,actual_vowd_musd,80,Actual/VOWD,Penta
+2022,11,2.5164028358839836,actual_vowd_musd,80,Actual/VOWD,Penta
+2022,12,1.427039078841573,actual_vowd_musd,80,Actual/VOWD,Penta
+2023,1,0.6576465783834321,actual_vowd_musd,80,Actual/VOWD,Penta
+2023,2,0.6086672768746062,actual_vowd_musd,80,Actual/VOWD,Penta
+2023,3,0.6620943326008936,actual_vowd_musd,80,Actual/VOWD,Penta
+2023,4,0.9990150930395519,actual_vowd_musd,80,Actual/VOWD,Penta
+2023,5,0.6135044635735735,actual_vowd_musd,80,Actual/VOWD,Penta
+2023,6,0.6077942215900536,actual_vowd_musd,80,Actual/VOWD,Penta
+2023,7,0.6248424681147,actual_vowd_musd,80,Actual/VOWD,Penta
+2023,8,0.40681589091540316,actual_vowd_musd,80,Actual/VOWD,Penta
+2023,9,0.0,actual_vowd_musd,80,Actual/VOWD,Penta
+2023,10,0.37379150977807074,actual_vowd_musd,80,Actual/VOWD,Penta
+2023,11,0.3697573695158573,actual_vowd_musd,80,Actual/VOWD,Penta
+2023,12,0.36006167889841056,actual_vowd_musd,80,Actual/VOWD,Penta
+2019,8,225.0,pob_actual,81,POB,Penta
+2019,9,239.26666666666668,pob_actual,81,POB,Penta
+2019,10,292.0,pob_actual,81,POB,Penta
+2019,11,413.7,pob_actual,81,POB,Penta
+2019,12,535.4666666666667,pob_actual,81,POB,Penta
+2020,1,574.8666666666667,pob_actual,81,POB,Penta
+2020,2,652.0,pob_actual,81,POB,Penta
+2020,3,632.7,pob_actual,81,POB,Penta
+2020,4,362.6333333333333,pob_actual,81,POB,Penta
+2020,5,396.3666666666667,pob_actual,81,POB,Penta
+2020,6,367.0,pob_actual,81,POB,Penta
+2020,7,544.3666666666667,pob_actual,81,POB,Penta
+2020,8,625.7,pob_actual,81,POB,Penta
+2020,9,578.4,pob_actual,81,POB,Penta
+2020,10,614.5,pob_actual,81,POB,Penta
+2020,11,670.6,pob_actual,81,POB,Penta
+2020,12,289.3666666666667,pob_actual,81,POB,Penta
+2021,1,7.366666666666666,pob_actual,81,POB,Penta
+2021,2,31.666666666666668,pob_actual,81,POB,Penta
+2021,3,359.8,pob_actual,81,POB,Penta
+2021,4,585.4,pob_actual,81,POB,Penta
+2021,5,644.4333333333333,pob_actual,81,POB,Penta
+2021,6,630.7666666666667,pob_actual,81,POB,Penta
+2021,7,552.5,pob_actual,81,POB,Penta
+2021,8,460.06666666666666,pob_actual,81,POB,Penta
+2021,9,410.73333333333335,pob_actual,81,POB,Penta
+2021,10,725.1666666666666,pob_actual,81,POB,Penta
+2021,11,880.0666666666667,pob_actual,81,POB,Penta
+2021,12,813.5666666666667,pob_actual,81,POB,Penta
+2022,1,723.6666666666666,pob_actual,81,POB,Penta
+2022,2,718.5,pob_actual,81,POB,Penta
+2022,3,737.9666666666667,pob_actual,81,POB,Penta
+2022,4,739.9333333333333,pob_actual,81,POB,Penta
+2022,5,751.5333333333333,pob_actual,81,POB,Penta
+2022,6,638.1,pob_actual,81,POB,Penta
+2022,7,629.1,pob_actual,81,POB,Penta
+2022,8,584.7333333333333,pob_actual,81,POB,Penta
+2022,9,509.53333333333336,pob_actual,81,POB,Penta
+2022,10,392.9,pob_actual,81,POB,Penta
+2022,11,209.73333333333332,pob_actual,81,POB,Penta
+2022,12,171.5,pob_actual,81,POB,Penta
+2023,1,111.9,pob_actual,81,POB,Penta
+2023,2,98.43333333333334,pob_actual,81,POB,Penta
+2023,3,111.36666666666666,pob_actual,81,POB,Penta
+2023,4,103.36666666666666,pob_actual,81,POB,Penta
+2023,5,103.5,pob_actual,81,POB,Penta
+2023,6,94.3,pob_actual,81,POB,Penta
+2023,7,91.2,pob_actual,81,POB,Penta
+2023,8,50.233333333333334,pob_actual,81,POB,Penta
+2023,9,39.2,pob_actual,81,POB,Penta
+2023,10,41.233333333333334,pob_actual,81,POB,Penta
+2023,11,39.5,pob_actual,81,POB,Penta
+2023,12,37.766666666666666,pob_actual,81,POB,Penta
+2019,4,0.0,cumulative_progress_plan,82,Plan Cumm.Prog,Penta
+2019,5,0.0004900712094408679,cumulative_progress_plan,82,Plan Cumm.Prog,Penta
+2019,6,0.017721577641677692,cumulative_progress_plan,82,Plan Cumm.Prog,Penta
+2019,7,0.0401166886578544,cumulative_progress_plan,82,Plan Cumm.Prog,Penta
+2019,8,0.07140375612492855,cumulative_progress_plan,82,Plan Cumm.Prog,Penta
+2019,9,0.09795522640803866,cumulative_progress_plan,82,Plan Cumm.Prog,Penta
+2019,10,0.1245794314102314,cumulative_progress_plan,82,Plan Cumm.Prog,Penta
+2019,11,0.1725660235249772,cumulative_progress_plan,82,Plan Cumm.Prog,Penta
+2019,12,0.1995932580747413,cumulative_progress_plan,82,Plan Cumm.Prog,Penta
+2020,1,0.22605083015119184,cumulative_progress_plan,82,Plan Cumm.Prog,Penta
+2020,2,0.25844762478051553,cumulative_progress_plan,82,Plan Cumm.Prog,Penta
+2020,3,0.3798153038763048,cumulative_progress_plan,82,Plan Cumm.Prog,Penta
+2020,4,0.41275962299746544,cumulative_progress_plan,82,Plan Cumm.Prog,Penta
+2020,5,0.4504363053881459,cumulative_progress_plan,82,Plan Cumm.Prog,Penta
+2020,6,0.47106018088548035,cumulative_progress_plan,82,Plan Cumm.Prog,Penta
+2020,7,0.5134700332238278,cumulative_progress_plan,82,Plan Cumm.Prog,Penta
+2020,8,0.691359302707297,cumulative_progress_plan,82,Plan Cumm.Prog,Penta
+2020,9,0.6917597222075448,cumulative_progress_plan,82,Plan Cumm.Prog,Penta
+2020,10,0.6994539253364523,cumulative_progress_plan,82,Plan Cumm.Prog,Penta
+2020,11,0.7172222298687707,cumulative_progress_plan,82,Plan Cumm.Prog,Penta
+2020,12,0.7684734446607636,cumulative_progress_plan,82,Plan Cumm.Prog,Penta
+2021,1,0.77,cumulative_progress_plan,82,Plan Cumm.Prog,Penta
+2021,2,0.775,cumulative_progress_plan,82,Plan Cumm.Prog,Penta
+2021,3,0.78,cumulative_progress_plan,82,Plan Cumm.Prog,Penta
+2021,4,0.785,cumulative_progress_plan,82,Plan Cumm.Prog,Penta
+2021,5,0.79,cumulative_progress_plan,82,Plan Cumm.Prog,Penta
+2021,6,0.7976180578383787,cumulative_progress_plan,82,Plan Cumm.Prog,Penta
+2021,7,0.799,cumulative_progress_plan,82,Plan Cumm.Prog,Penta
+2021,8,0.8,cumulative_progress_plan,82,Plan Cumm.Prog,Penta
+2021,9,0.801,cumulative_progress_plan,82,Plan Cumm.Prog,Penta
+2021,10,0.8026344180225146,cumulative_progress_plan,82,Plan Cumm.Prog,Penta
+2021,11,0.8115210974327409,cumulative_progress_plan,82,Plan Cumm.Prog,Penta
+2021,12,0.8649181913800892,cumulative_progress_plan,82,Plan Cumm.Prog,Penta
+2022,1,0.9449016990106035,cumulative_progress_plan,82,Plan Cumm.Prog,Penta
+2022,2,0.9831227220475922,cumulative_progress_plan,82,Plan Cumm.Prog,Penta
+2022,3,0.9984957118583175,cumulative_progress_plan,82,Plan Cumm.Prog,Penta
+2022,4,0.9998058502814346,cumulative_progress_plan,82,Plan Cumm.Prog,Penta
+2022,5,0.9999744954591218,cumulative_progress_plan,82,Plan Cumm.Prog,Penta
+2022,6,0.9999974094554462,cumulative_progress_plan,82,Plan Cumm.Prog,Penta
+2022,7,0.9999974721601916,cumulative_progress_plan,82,Plan Cumm.Prog,Penta
+2022,8,0.9999983454384764,cumulative_progress_plan,82,Plan Cumm.Prog,Penta
+2022,9,0.9999999946280161,cumulative_progress_plan,82,Plan Cumm.Prog,Penta
+2022,10,0.9999999946280161,cumulative_progress_plan,82,Plan Cumm.Prog,Penta
+2022,11,0.9999999946280161,cumulative_progress_plan,82,Plan Cumm.Prog,Penta
+2022,12,0.9999999946280161,cumulative_progress_plan,82,Plan Cumm.Prog,Penta
+2023,1,0.9999999946280161,cumulative_progress_plan,82,Plan Cumm.Prog,Penta
+2023,2,0.9999999946280161,cumulative_progress_plan,82,Plan Cumm.Prog,Penta
+2023,3,0.9999999946280161,cumulative_progress_plan,82,Plan Cumm.Prog,Penta
+2023,4,0.9999999946280161,cumulative_progress_plan,82,Plan Cumm.Prog,Penta
+2023,5,0.9999999946280161,cumulative_progress_plan,82,Plan Cumm.Prog,Penta
+2023,6,0.9999999946280161,cumulative_progress_plan,82,Plan Cumm.Prog,Penta
+2023,7,0.9999999946280161,cumulative_progress_plan,82,Plan Cumm.Prog,Penta
+2023,8,0.9999999946280161,cumulative_progress_plan,82,Plan Cumm.Prog,Penta
+2023,9,0.9999999946280161,cumulative_progress_plan,82,Plan Cumm.Prog,Penta
+2019,4,0.0,cumulative_progress_actual,83,Actual Cumm. Prog,Penta
+2019,5,6.442253115131809e-05,cumulative_progress_actual,83,Actual Cumm. Prog,Penta
+2019,6,0.004323279455987066,cumulative_progress_actual,83,Actual Cumm. Prog,Penta
+2019,7,0.01410665788656254,cumulative_progress_actual,83,Actual Cumm. Prog,Penta
+2019,8,0.029373220895895367,cumulative_progress_actual,83,Actual Cumm. Prog,Penta
+2019,9,0.04720519374033933,cumulative_progress_actual,83,Actual Cumm. Prog,Penta
+2019,10,0.06531627495647722,cumulative_progress_actual,83,Actual Cumm. Prog,Penta
+2019,11,0.10616256323063399,cumulative_progress_actual,83,Actual Cumm. Prog,Penta
+2019,12,0.15538823181806896,cumulative_progress_actual,83,Actual Cumm. Prog,Penta
+2020,1,0.20263005031290457,cumulative_progress_actual,83,Actual Cumm. Prog,Penta
+2020,2,0.2554806823295847,cumulative_progress_actual,83,Actual Cumm. Prog,Penta
+2020,3,0.3613513584042099,cumulative_progress_actual,83,Actual Cumm. Prog,Penta
+2020,4,0.3949191210449338,cumulative_progress_actual,83,Actual Cumm. Prog,Penta
+2020,5,0.4385312728468565,cumulative_progress_actual,83,Actual Cumm. Prog,Penta
+2020,6,0.4870661317744048,cumulative_progress_actual,83,Actual Cumm. Prog,Penta
+2020,7,0.5959890294627478,cumulative_progress_actual,83,Actual Cumm. Prog,Penta
+2020,8,0.7122656883982621,cumulative_progress_actual,83,Actual Cumm. Prog,Penta
+2020,9,0.713077986060778,cumulative_progress_actual,83,Actual Cumm. Prog,Penta
+2020,10,0.7443757172578795,cumulative_progress_actual,83,Actual Cumm. Prog,Penta
+2020,11,0.746,cumulative_progress_actual,83,Actual Cumm. Prog,Penta
+2020,12,0.747,cumulative_progress_actual,83,Actual Cumm. Prog,Penta
+2021,1,0.748,cumulative_progress_actual,83,Actual Cumm. Prog,Penta
+2021,2,0.749,cumulative_progress_actual,83,Actual Cumm. Prog,Penta
+2021,3,0.75,cumulative_progress_actual,83,Actual Cumm. Prog,Penta
+2021,4,0.7513399739895478,cumulative_progress_actual,83,Actual Cumm. Prog,Penta
+2021,5,0.7649845944106941,cumulative_progress_actual,83,Actual Cumm. Prog,Penta
+2021,6,0.7724072792878538,cumulative_progress_actual,83,Actual Cumm. Prog,Penta
+2021,7,0.7767923635325921,cumulative_progress_actual,83,Actual Cumm. Prog,Penta
+2021,8,0.7767923635325921,cumulative_progress_actual,83,Actual Cumm. Prog,Penta
+2021,9,0.7808750841443465,cumulative_progress_actual,83,Actual Cumm. Prog,Penta
+2021,10,0.79,cumulative_progress_actual,83,Actual Cumm. Prog,Penta
+2021,11,0.8090812710795696,cumulative_progress_actual,83,Actual Cumm. Prog,Penta
+2021,12,0.8418908944627749,cumulative_progress_actual,83,Actual Cumm. Prog,Penta
+2022,1,0.8796829428654865,cumulative_progress_actual,83,Actual Cumm. Prog,Penta
+2022,2,0.9183129201350246,cumulative_progress_actual,83,Actual Cumm. Prog,Penta
+2022,3,0.943645213673558,cumulative_progress_actual,83,Actual Cumm. Prog,Penta
+2022,4,0.9699737013271484,cumulative_progress_actual,83,Actual Cumm. Prog,Penta
+2022,5,0.9819560054359419,cumulative_progress_actual,83,Actual Cumm. Prog,Penta
+2022,6,0.9911722036365618,cumulative_progress_actual,83,Actual Cumm. Prog,Penta
+2022,7,0.9958908259683327,cumulative_progress_actual,83,Actual Cumm. Prog,Penta
+2022,8,0.9977203569746467,cumulative_progress_actual,83,Actual Cumm. Prog,Penta
+2022,9,0.9992869691813785,cumulative_progress_actual,83,Actual Cumm. Prog,Penta
+2022,10,0.9997365056121569,cumulative_progress_actual,83,Actual Cumm. Prog,Penta
+2022,11,0.9999999946280161,cumulative_progress_actual,83,Actual Cumm. Prog,Penta
+2022,12,0.9999999946280161,cumulative_progress_actual,83,Actual Cumm. Prog,Penta
+2023,1,0.9999999946280161,cumulative_progress_actual,83,Actual Cumm. Prog,Penta
+2023,2,0.9999999946280161,cumulative_progress_actual,83,Actual Cumm. Prog,Penta
+2023,3,0.9999999946280161,cumulative_progress_actual,83,Actual Cumm. Prog,Penta
+2023,4,0.9999999946280161,cumulative_progress_actual,83,Actual Cumm. Prog,Penta
+2023,5,0.9999999946280161,cumulative_progress_actual,83,Actual Cumm. Prog,Penta
+2023,6,0.9999999946280161,cumulative_progress_actual,83,Actual Cumm. Prog,Penta
+2023,7,0.9999999946280161,cumulative_progress_actual,83,Actual Cumm. Prog,Penta
+2023,8,0.9999999946280161,cumulative_progress_actual,83,Actual Cumm. Prog,Penta
+2023,9,0.9999999946280161,cumulative_progress_actual,83,Actual Cumm. Prog,Penta
+2019,4,0.0,unknown_84,84,Plan per Month,Penta
+2019,5,0.0004900712094408679,unknown_84,84,Plan per Month,Penta
+2019,6,0.017231506432236823,unknown_84,84,Plan per Month,Penta
+2019,7,0.022395111016176708,unknown_84,84,Plan per Month,Penta
+2019,8,0.03128706746707415,unknown_84,84,Plan per Month,Penta
+2019,9,0.026551470283110112,unknown_84,84,Plan per Month,Penta
+2019,10,0.02662420500219273,unknown_84,84,Plan per Month,Penta
+2019,11,0.04798659211474582,unknown_84,84,Plan per Month,Penta
+2019,12,0.02702723454976408,unknown_84,84,Plan per Month,Penta
+2020,1,0.026457572076450553,unknown_84,84,Plan per Month,Penta
+2020,2,0.03239679462932368,unknown_84,84,Plan per Month,Penta
+2020,3,0.12136767909578927,unknown_84,84,Plan per Month,Penta
+2020,4,0.03294431912116064,unknown_84,84,Plan per Month,Penta
+2020,5,0.03767668239068045,unknown_84,84,Plan per Month,Penta
+2020,6,0.020623875497334465,unknown_84,84,Plan per Month,Penta
+2020,7,0.04240985233834743,unknown_84,84,Plan per Month,Penta
+2020,8,0.17788926948346917,unknown_84,84,Plan per Month,Penta
+2020,9,0.00040041950024782835,unknown_84,84,Plan per Month,Penta
+2020,10,0.007694203128907562,unknown_84,84,Plan per Month,Penta
+2020,11,0.01776830453231837,unknown_84,84,Plan per Month,Penta
+2020,12,0.051251214791992905,unknown_84,84,Plan per Month,Penta
+2021,1,0.0015265553392364017,unknown_84,84,Plan per Month,Penta
+2021,2,0.0050000000000000044,unknown_84,84,Plan per Month,Penta
+2021,3,0.0050000000000000044,unknown_84,84,Plan per Month,Penta
+2021,4,0.0050000000000000044,unknown_84,84,Plan per Month,Penta
+2021,5,0.0050000000000000044,unknown_84,84,Plan per Month,Penta
+2021,6,0.007618057838378656,unknown_84,84,Plan per Month,Penta
+2021,7,0.0013819421616213523,unknown_84,84,Plan per Month,Penta
+2021,8,0.0010000000000000009,unknown_84,84,Plan per Month,Penta
+2021,9,0.0010000000000000009,unknown_84,84,Plan per Month,Penta
+2021,10,0.0016344180225145166,unknown_84,84,Plan per Month,Penta
+2021,11,0.008886679410226361,unknown_84,84,Plan per Month,Penta
+2021,12,0.05339709394734826,unknown_84,84,Plan per Month,Penta
+2022,1,0.07998350763051432,unknown_84,84,Plan per Month,Penta
+2022,2,0.03822102303698871,unknown_84,84,Plan per Month,Penta
+2022,3,0.015372989810725324,unknown_84,84,Plan per Month,Penta
+2022,4,0.0013101384231171131,unknown_84,84,Plan per Month,Penta
+2022,5,0.00016864517768711007,unknown_84,84,Plan per Month,Penta
+2022,6,2.2913996324480657e-05,unknown_84,84,Plan per Month,Penta
+2022,7,6.27047453960472e-08,unknown_84,84,Plan per Month,Penta
+2022,8,8.732782847964415e-07,unknown_84,84,Plan per Month,Penta
+2022,9,1.6491895397097167e-06,unknown_84,84,Plan per Month,Penta
+2022,10,0.0,unknown_84,84,Plan per Month,Penta
+2022,11,0.0,unknown_84,84,Plan per Month,Penta
+2022,12,0.0,unknown_84,84,Plan per Month,Penta
+2023,1,0.0,unknown_84,84,Plan per Month,Penta
+2023,2,0.0,unknown_84,84,Plan per Month,Penta
+2023,3,0.0,unknown_84,84,Plan per Month,Penta
+2023,4,0.0,unknown_84,84,Plan per Month,Penta
+2023,5,0.0,unknown_84,84,Plan per Month,Penta
+2023,6,0.0,unknown_84,84,Plan per Month,Penta
+2023,7,0.0,unknown_84,84,Plan per Month,Penta
+2023,8,0.0,unknown_84,84,Plan per Month,Penta
+2023,9,0.0,unknown_84,84,Plan per Month,Penta
+2019,4,0.0,unknown_85,85,Actual per Month,Penta
+2019,5,6.442253115131809e-05,unknown_85,85,Actual per Month,Penta
+2019,6,0.004258856924835748,unknown_85,85,Actual per Month,Penta
+2019,7,0.009783378430575473,unknown_85,85,Actual per Month,Penta
+2019,8,0.015266563009332827,unknown_85,85,Actual per Month,Penta
+2019,9,0.017831972844443964,unknown_85,85,Actual per Month,Penta
+2019,10,0.018111081216137893,unknown_85,85,Actual per Month,Penta
+2019,11,0.04084628827415676,unknown_85,85,Actual per Month,Penta
+2019,12,0.049225668587434976,unknown_85,85,Actual per Month,Penta
+2020,1,0.04724181849483561,unknown_85,85,Actual per Month,Penta
+2020,2,0.05285063201668014,unknown_85,85,Actual per Month,Penta
+2020,3,0.10587067607462519,unknown_85,85,Actual per Month,Penta
+2020,4,0.03356776264072392,unknown_85,85,Actual per Month,Penta
+2020,5,0.04361215180192268,unknown_85,85,Actual per Month,Penta
+2020,6,0.048534858927548274,unknown_85,85,Actual per Month,Penta
+2020,7,0.10892289768834301,unknown_85,85,Actual per Month,Penta
+2020,8,0.11627665893551431,unknown_85,85,Actual per Month,Penta
+2020,9,0.0008122976625158929,unknown_85,85,Actual per Month,Penta
+2020,10,0.03129773119710155,unknown_85,85,Actual per Month,Penta
+2020,11,0.001624282742120453,unknown_85,85,Actual per Month,Penta
+2020,12,0.0010000000000000009,unknown_85,85,Actual per Month,Penta
+2021,1,0.0010000000000000009,unknown_85,85,Actual per Month,Penta
+2021,2,0.0010000000000000009,unknown_85,85,Actual per Month,Penta
+2021,3,0.0010000000000000009,unknown_85,85,Actual per Month,Penta
+2021,4,0.0013399739895477714,unknown_85,85,Actual per Month,Penta
+2021,5,0.013644620421146336,unknown_85,85,Actual per Month,Penta
+2021,6,0.007422684877159691,unknown_85,85,Actual per Month,Penta
+2021,7,0.004385084244738269,unknown_85,85,Actual per Month,Penta
+2021,8,0.0,unknown_85,85,Actual per Month,Penta
+2021,9,0.004082720611754409,unknown_85,85,Actual per Month,Penta
+2021,10,0.00912491585565356,unknown_85,85,Actual per Month,Penta
+2021,11,0.019081271079569584,unknown_85,85,Actual per Month,Penta
+2021,12,0.032809623383205255,unknown_85,85,Actual per Month,Penta
+2022,1,0.037792048402711664,unknown_85,85,Actual per Month,Penta
+2022,2,0.038629977269538096,unknown_85,85,Actual per Month,Penta
+2022,3,0.02533229353853339,unknown_85,85,Actual per Month,Penta
+2022,4,0.026328487653590416,unknown_85,85,Actual per Month,Penta
+2022,5,0.011982304108793418,unknown_85,85,Actual per Month,Penta
+2022,6,0.009216198200619918,unknown_85,85,Actual per Month,Penta
+2022,7,0.004718622331770894,unknown_85,85,Actual per Month,Penta
+2022,8,0.0018295310063140002,unknown_85,85,Actual per Month,Penta
+2022,9,0.0015666122067318211,unknown_85,85,Actual per Month,Penta
+2022,10,0.00044953643077838557,unknown_85,85,Actual per Month,Penta
+2022,11,0.000263489015859264,unknown_85,85,Actual per Month,Penta
+2022,12,0.0,unknown_85,85,Actual per Month,Penta
+2023,1,0.0,unknown_85,85,Actual per Month,Penta
+2023,2,0.0,unknown_85,85,Actual per Month,Penta
+2023,3,0.0,unknown_85,85,Actual per Month,Penta
+2023,4,0.0,unknown_85,85,Actual per Month,Penta
+2023,5,0.0,unknown_85,85,Actual per Month,Penta
+2023,6,0.0,unknown_85,85,Actual per Month,Penta
+2023,7,0.0,unknown_85,85,Actual per Month,Penta
+2023,8,0.0,unknown_85,85,Actual per Month,Penta
+2023,9,0.0,unknown_85,85,Actual per Month,Penta
+2019,4,0.0,achieved_manhours,127,Achieved Mhrs,Daewoo
+2019,5,0.0,achieved_manhours,127,Achieved Mhrs,Daewoo
+2019,6,0.0,achieved_manhours,127,Achieved Mhrs,Daewoo
+2019,7,0.0,achieved_manhours,127,Achieved Mhrs,Daewoo
+2019,8,0.0,achieved_manhours,127,Achieved Mhrs,Daewoo
+2019,9,0.0,achieved_manhours,127,Achieved Mhrs,Daewoo
+2019,10,6.234,achieved_manhours,127,Achieved Mhrs,Daewoo
+2019,11,47.427,achieved_manhours,127,Achieved Mhrs,Daewoo
+2019,12,26.578,achieved_manhours,127,Achieved Mhrs,Daewoo
+2020,1,1.203,achieved_manhours,127,Achieved Mhrs,Daewoo
+2020,2,819.8520000000001,achieved_manhours,127,Achieved Mhrs,Daewoo
+2020,3,4045.2360000000003,achieved_manhours,127,Achieved Mhrs,Daewoo
+2020,4,2955.531,achieved_manhours,127,Achieved Mhrs,Daewoo
+2020,5,1036.042,achieved_manhours,127,Achieved Mhrs,Daewoo
+2020,6,4047.313,achieved_manhours,127,Achieved Mhrs,Daewoo
+2020,7,1858.213,achieved_manhours,127,Achieved Mhrs,Daewoo
+2020,8,1481.137,achieved_manhours,127,Achieved Mhrs,Daewoo
+2020,9,1755.763,achieved_manhours,127,Achieved Mhrs,Daewoo
+2020,10,206.0,achieved_manhours,127,Achieved Mhrs,Daewoo
+2020,11,0.0,achieved_manhours,127,Achieved Mhrs,Daewoo
+2020,12,0.0,achieved_manhours,127,Achieved Mhrs,Daewoo
+2021,1,0.0,achieved_manhours,127,Achieved Mhrs,Daewoo
+2021,2,0.0,achieved_manhours,127,Achieved Mhrs,Daewoo
+2021,3,0.0,achieved_manhours,127,Achieved Mhrs,Daewoo
+2021,4,1056.9399999999998,achieved_manhours,127,Achieved Mhrs,Daewoo
+2021,5,302.568,achieved_manhours,127,Achieved Mhrs,Daewoo
+2021,6,321.062,achieved_manhours,127,Achieved Mhrs,Daewoo
+2021,7,16.908,achieved_manhours,127,Achieved Mhrs,Daewoo
+2021,8,0.0,achieved_manhours,127,Achieved Mhrs,Daewoo
+2021,9,182.12599999999998,achieved_manhours,127,Achieved Mhrs,Daewoo
+2021,10,85.525,achieved_manhours,127,Achieved Mhrs,Daewoo
+2021,11,1904.7289999999998,achieved_manhours,127,Achieved Mhrs,Daewoo
+2021,12,600.4549999999999,achieved_manhours,127,Achieved Mhrs,Daewoo
+2022,1,0.0,achieved_manhours,127,Achieved Mhrs,Daewoo
+2022,2,0.0,achieved_manhours,127,Achieved Mhrs,Daewoo
+2022,3,0.0,achieved_manhours,127,Achieved Mhrs,Daewoo
+2022,4,0.0,achieved_manhours,127,Achieved Mhrs,Daewoo
+2022,5,0.0,achieved_manhours,127,Achieved Mhrs,Daewoo
+2022,6,0.0,achieved_manhours,127,Achieved Mhrs,Daewoo
+2022,7,0.0,achieved_manhours,127,Achieved Mhrs,Daewoo
+2022,8,0.0,achieved_manhours,127,Achieved Mhrs,Daewoo
+2022,9,5.407,achieved_manhours,127,Achieved Mhrs,Daewoo
+2022,10,0.465,achieved_manhours,127,Achieved Mhrs,Daewoo
+2022,11,7.037,achieved_manhours,127,Achieved Mhrs,Daewoo
+2022,12,0.0,achieved_manhours,127,Achieved Mhrs,Daewoo
+2023,1,0.0,achieved_manhours,127,Achieved Mhrs,Daewoo
+2023,2,0.0,achieved_manhours,127,Achieved Mhrs,Daewoo
+2023,3,0.0,achieved_manhours,127,Achieved Mhrs,Daewoo
+2023,4,0.0,achieved_manhours,127,Achieved Mhrs,Daewoo
+2023,5,0.0,achieved_manhours,127,Achieved Mhrs,Daewoo
+2023,6,0.0,achieved_manhours,127,Achieved Mhrs,Daewoo
+2020,9,2.68364956,invoice_value_musd,128,Invoice Value (MUSD),Daewoo
+2020,10,3.9369341199999996,invoice_value_musd,128,Invoice Value (MUSD),Daewoo
+2020,11,3.50787737,invoice_value_musd,128,Invoice Value (MUSD),Daewoo
+2020,12,0.42871751,invoice_value_musd,128,Invoice Value (MUSD),Daewoo
+2021,1,0.88331197,invoice_value_musd,128,Invoice Value (MUSD),Daewoo
+2021,2,0.0,invoice_value_musd,128,Invoice Value (MUSD),Daewoo
+2021,3,2.5964040099999997,invoice_value_musd,128,Invoice Value (MUSD),Daewoo
+2021,4,3.6364715800000003,invoice_value_musd,128,Invoice Value (MUSD),Daewoo
+2021,5,4.62866371,invoice_value_musd,128,Invoice Value (MUSD),Daewoo
+2021,6,0.40461931,invoice_value_musd,128,Invoice Value (MUSD),Daewoo
+2021,7,0.14871022,invoice_value_musd,128,Invoice Value (MUSD),Daewoo
+2021,8,0.0,invoice_value_musd,128,Invoice Value (MUSD),Daewoo
+2021,9,4.74733489,invoice_value_musd,128,Invoice Value (MUSD),Daewoo
+2021,10,0.90799423,invoice_value_musd,128,Invoice Value (MUSD),Daewoo
+2021,11,0.0,invoice_value_musd,128,Invoice Value (MUSD),Daewoo
+2021,12,6.25629491,invoice_value_musd,128,Invoice Value (MUSD),Daewoo
+2022,1,4.47338008,invoice_value_musd,128,Invoice Value (MUSD),Daewoo
+2022,2,4.37234184,invoice_value_musd,128,Invoice Value (MUSD),Daewoo
+2022,3,9.14659311,invoice_value_musd,128,Invoice Value (MUSD),Daewoo
+2022,4,10.641315079999998,invoice_value_musd,128,Invoice Value (MUSD),Daewoo
+2022,5,5.89164014,invoice_value_musd,128,Invoice Value (MUSD),Daewoo
+2022,6,5.9930340499999994,invoice_value_musd,128,Invoice Value (MUSD),Daewoo
+2022,7,4.86362053,invoice_value_musd,128,Invoice Value (MUSD),Daewoo
+2022,8,8.379679269999999,invoice_value_musd,128,Invoice Value (MUSD),Daewoo
+2022,9,9.82428751,invoice_value_musd,128,Invoice Value (MUSD),Daewoo
+2022,10,0.84878966,invoice_value_musd,128,Invoice Value (MUSD),Daewoo
+2022,11,8.67360111,invoice_value_musd,128,Invoice Value (MUSD),Daewoo
+2022,12,5.32303715,invoice_value_musd,128,Invoice Value (MUSD),Daewoo
+2023,1,4.618864889999999,invoice_value_musd,128,Invoice Value (MUSD),Daewoo
+2023,2,0.0,invoice_value_musd,128,Invoice Value (MUSD),Daewoo
+2023,3,2.46472996,invoice_value_musd,128,Invoice Value (MUSD),Daewoo
+2023,4,4.87032221,invoice_value_musd,128,Invoice Value (MUSD),Daewoo
+2023,5,1.07200669,invoice_value_musd,128,Invoice Value (MUSD),Daewoo
+2023,6,3.34428165,invoice_value_musd,128,Invoice Value (MUSD),Daewoo
+2023,7,0.7229730400000001,invoice_value_musd,128,Invoice Value (MUSD),Daewoo
+2020,9,2.300271050501721,actual_vowd_musd,129,Actual/VOWD,Daewoo
+2020,10,4.330372956987475,actual_vowd_musd,129,Actual/VOWD,Daewoo
+2020,11,3.848491210152054,actual_vowd_musd,129,Actual/VOWD,Daewoo
+2020,12,1.5070522922859444,actual_vowd_musd,129,Actual/VOWD,Daewoo
+2021,1,0.0,actual_vowd_musd,129,Actual/VOWD,Daewoo
+2021,2,0.472338800000004,actual_vowd_musd,129,Actual/VOWD,Daewoo
+2021,3,2.5307893702343804,actual_vowd_musd,129,Actual/VOWD,Daewoo
+2021,4,3.6144778257713326,actual_vowd_musd,129,Actual/VOWD,Daewoo
+2021,5,5.060758707509412,actual_vowd_musd,129,Actual/VOWD,Daewoo
+2021,6,3.2272572028982576,actual_vowd_musd,129,Actual/VOWD,Daewoo
+2021,7,1.7218754558499962,actual_vowd_musd,129,Actual/VOWD,Daewoo
+2021,8,0.7975596362671215,actual_vowd_musd,129,Actual/VOWD,Daewoo
+2021,9,3.433981651665568,actual_vowd_musd,129,Actual/VOWD,Daewoo
+2021,10,3.106388699529407,actual_vowd_musd,129,Actual/VOWD,Daewoo
+2021,11,4.230238020530286,actual_vowd_musd,129,Actual/VOWD,Daewoo
+2021,12,4.736791668023141,actual_vowd_musd,129,Actual/VOWD,Daewoo
+2022,1,4.67084147741815,actual_vowd_musd,129,Actual/VOWD,Daewoo
+2022,2,4.426765544003956,actual_vowd_musd,129,Actual/VOWD,Daewoo
+2022,3,10.203582052192367,actual_vowd_musd,129,Actual/VOWD,Daewoo
+2022,4,5.307300582440998,actual_vowd_musd,129,Actual/VOWD,Daewoo
+2022,5,6.593280044222,actual_vowd_musd,129,Actual/VOWD,Daewoo
+2022,6,5.702041814426866,actual_vowd_musd,129,Actual/VOWD,Daewoo
+2022,7,5.848942083870646,actual_vowd_musd,129,Actual/VOWD,Daewoo
+2022,8,8.883026266306173,actual_vowd_musd,129,Actual/VOWD,Daewoo
+2022,9,9.146390012189197,actual_vowd_musd,129,Actual/VOWD,Daewoo
+2022,10,3.8420687211001243,actual_vowd_musd,129,Actual/VOWD,Daewoo
+2022,11,4.654425980910423,actual_vowd_musd,129,Actual/VOWD,Daewoo
+2022,12,5.824868098436968,actual_vowd_musd,129,Actual/VOWD,Daewoo
+2023,1,1.1459900780099612,actual_vowd_musd,129,Actual/VOWD,Daewoo
+2023,2,0.8669267187292171,actual_vowd_musd,129,Actual/VOWD,Daewoo
+2023,3,2.0620963395898277,actual_vowd_musd,129,Actual/VOWD,Daewoo
+2023,4,2.3702276807353773,actual_vowd_musd,129,Actual/VOWD,Daewoo
+2023,5,0.8565182206862971,actual_vowd_musd,129,Actual/VOWD,Daewoo
+2023,6,3.8411109696008205,actual_vowd_musd,129,Actual/VOWD,Daewoo
+2023,7,0.18831430940965355,actual_vowd_musd,129,Actual/VOWD,Daewoo
+2023,8,0.0,actual_vowd_musd,129,Actual/VOWD,Daewoo
+2019,12,47.0,pob_plan,130,Plan POB,Daewoo
+2020,1,228.0,pob_plan,130,Plan POB,Daewoo
+2020,2,269.0,pob_plan,130,Plan POB,Daewoo
+2020,3,334.0,pob_plan,130,Plan POB,Daewoo
+2019,6,6.0,pob_actual,131,Actual POB,Daewoo
+2019,7,6.0,pob_actual,131,Actual POB,Daewoo
+2019,8,6.0,pob_actual,131,Actual POB,Daewoo
+2019,9,6.0,pob_actual,131,Actual POB,Daewoo
+2019,10,10.333333333333334,pob_actual,131,Actual POB,Daewoo
+2019,11,11.333333333333334,pob_actual,131,Actual POB,Daewoo
+2019,12,39.0,pob_actual,131,Actual POB,Daewoo
+2020,1,189.5,pob_actual,131,Actual POB,Daewoo
+2020,2,448.6666666666667,pob_actual,131,Actual POB,Daewoo
+2020,3,569.6666666666666,pob_actual,131,Actual POB,Daewoo
+2020,4,526.9333333333333,pob_actual,131,Actual POB,Daewoo
+2020,5,534.3666666666667,pob_actual,131,Actual POB,Daewoo
+2020,6,512.0,pob_actual,131,Actual POB,Daewoo
+2020,7,521.5,pob_actual,131,Actual POB,Daewoo
+2020,8,537.4,pob_actual,131,Actual POB,Daewoo
+2020,9,556.2,pob_actual,131,Actual POB,Daewoo
+2020,10,601.0,pob_actual,131,Actual POB,Daewoo
+2020,11,599.3333333333334,pob_actual,131,Actual POB,Daewoo
+2020,12,526.5333333333333,pob_actual,131,Actual POB,Daewoo
+2021,1,42.53333333333333,pob_actual,131,Actual POB,Daewoo
+2021,2,151.83333333333334,pob_actual,131,Actual POB,Daewoo
+2021,3,421.26666666666665,pob_actual,131,Actual POB,Daewoo
+2021,4,611.0666666666667,pob_actual,131,Actual POB,Daewoo
+2021,5,731.9666666666667,pob_actual,131,Actual POB,Daewoo
+2021,6,722.4666666666667,pob_actual,131,Actual POB,Daewoo
+2021,7,745.7333333333333,pob_actual,131,Actual POB,Daewoo
+2021,8,727.9,pob_actual,131,Actual POB,Daewoo
+2021,9,701.9666666666667,pob_actual,131,Actual POB,Daewoo
+2021,10,730.1,pob_actual,131,Actual POB,Daewoo
+2021,11,831.0,pob_actual,131,Actual POB,Daewoo
+2021,12,942.3666666666667,pob_actual,131,Actual POB,Daewoo
+2022,1,971.7333333333333,pob_actual,131,Actual POB,Daewoo
+2022,2,880.9666666666667,pob_actual,131,Actual POB,Daewoo
+2022,3,999.8,pob_actual,131,Actual POB,Daewoo
+2022,4,1027.4333333333334,pob_actual,131,Actual POB,Daewoo
+2022,5,1080.2666666666667,pob_actual,131,Actual POB,Daewoo
+2022,6,1038.3333333333333,pob_actual,131,Actual POB,Daewoo
+2022,7,1166.1333333333334,pob_actual,131,Actual POB,Daewoo
+2022,8,1148.4333333333334,pob_actual,131,Actual POB,Daewoo
+2022,9,1032.5333333333333,pob_actual,131,Actual POB,Daewoo
+2022,10,889.2,pob_actual,131,Actual POB,Daewoo
+2022,11,489.6333333333333,pob_actual,131,Actual POB,Daewoo
+2022,12,274.1,pob_actual,131,Actual POB,Daewoo
+2023,1,209.0,pob_actual,131,Actual POB,Daewoo
+2023,2,159.73333333333332,pob_actual,131,Actual POB,Daewoo
+2023,3,146.4,pob_actual,131,Actual POB,Daewoo
+2023,4,112.43333333333334,pob_actual,131,Actual POB,Daewoo
+2023,5,106.43333333333334,pob_actual,131,Actual POB,Daewoo
+2023,6,74.13333333333334,pob_actual,131,Actual POB,Daewoo
+2023,7,9.210526315789474,pob_actual,131,Actual POB,Daewoo
+2023,8,1.0,pob_actual,131,Actual POB,Daewoo
+2019,4,0.0,cumulative_progress_plan,132,Plan Cumm.Prog,Daewoo
+2019,5,0.001632317138946132,cumulative_progress_plan,132,Plan Cumm.Prog,Daewoo
+2019,6,0.04362483111917456,cumulative_progress_plan,132,Plan Cumm.Prog,Daewoo
+2019,7,0.049906123627106454,cumulative_progress_plan,132,Plan Cumm.Prog,Daewoo
+2019,8,0.07092501697483945,cumulative_progress_plan,132,Plan Cumm.Prog,Daewoo
+2019,9,0.11835593380728796,cumulative_progress_plan,132,Plan Cumm.Prog,Daewoo
+2019,10,0.12303915392241495,cumulative_progress_plan,132,Plan Cumm.Prog,Daewoo
+2019,11,0.12587565096173503,cumulative_progress_plan,132,Plan Cumm.Prog,Daewoo
+2019,12,0.12764274897031452,cumulative_progress_plan,132,Plan Cumm.Prog,Daewoo
+2020,1,0.14895285961314625,cumulative_progress_plan,132,Plan Cumm.Prog,Daewoo
+2020,2,0.1773934261666771,cumulative_progress_plan,132,Plan Cumm.Prog,Daewoo
+2020,3,0.39763288872107744,cumulative_progress_plan,132,Plan Cumm.Prog,Daewoo
+2020,4,0.440448817524313,cumulative_progress_plan,132,Plan Cumm.Prog,Daewoo
+2020,5,0.4851041691589698,cumulative_progress_plan,132,Plan Cumm.Prog,Daewoo
+2020,6,0.5045245557517709,cumulative_progress_plan,132,Plan Cumm.Prog,Daewoo
+2020,7,0.5312061505467528,cumulative_progress_plan,132,Plan Cumm.Prog,Daewoo
+2020,8,0.6666539323484106,cumulative_progress_plan,132,Plan Cumm.Prog,Daewoo
+2020,9,0.6689524352349386,cumulative_progress_plan,132,Plan Cumm.Prog,Daewoo
+2020,10,0.6757395874715388,cumulative_progress_plan,132,Plan Cumm.Prog,Daewoo
+2020,11,0.7216379756953734,cumulative_progress_plan,132,Plan Cumm.Prog,Daewoo
+2020,12,0.7525430504179911,cumulative_progress_plan,132,Plan Cumm.Prog,Daewoo
+2021,1,0.8178158835105959,cumulative_progress_plan,132,Plan Cumm.Prog,Daewoo
+2021,2,0.819,cumulative_progress_plan,132,Plan Cumm.Prog,Daewoo
+2021,3,0.82,cumulative_progress_plan,132,Plan Cumm.Prog,Daewoo
+2021,4,0.822,cumulative_progress_plan,132,Plan Cumm.Prog,Daewoo
+2021,5,0.824,cumulative_progress_plan,132,Plan Cumm.Prog,Daewoo
+2021,6,0.8245224282720841,cumulative_progress_plan,132,Plan Cumm.Prog,Daewoo
+2021,7,0.8546014759360645,cumulative_progress_plan,132,Plan Cumm.Prog,Daewoo
+2021,8,0.8818792022858097,cumulative_progress_plan,132,Plan Cumm.Prog,Daewoo
+2021,9,0.884,cumulative_progress_plan,132,Plan Cumm.Prog,Daewoo
+2021,10,0.8852863854936255,cumulative_progress_plan,132,Plan Cumm.Prog,Daewoo
+2021,11,0.888213126695642,cumulative_progress_plan,132,Plan Cumm.Prog,Daewoo
+2021,12,0.9035720904647958,cumulative_progress_plan,132,Plan Cumm.Prog,Daewoo
+2022,1,0.9326368381106092,cumulative_progress_plan,132,Plan Cumm.Prog,Daewoo
+2022,2,0.968490474145906,cumulative_progress_plan,132,Plan Cumm.Prog,Daewoo
+2022,3,0.9922114934225063,cumulative_progress_plan,132,Plan Cumm.Prog,Daewoo
+2022,4,0.9993501770054803,cumulative_progress_plan,132,Plan Cumm.Prog,Daewoo
+2022,5,0.9996575901355065,cumulative_progress_plan,132,Plan Cumm.Prog,Daewoo
+2022,6,0.9999999870642454,cumulative_progress_plan,132,Plan Cumm.Prog,Daewoo
+2022,7,0.9999999870642454,cumulative_progress_plan,132,Plan Cumm.Prog,Daewoo
+2022,8,0.9999999870642454,cumulative_progress_plan,132,Plan Cumm.Prog,Daewoo
+2022,9,0.9999999922904133,cumulative_progress_plan,132,Plan Cumm.Prog,Daewoo
+2022,10,0.9999999922904133,cumulative_progress_plan,132,Plan Cumm.Prog,Daewoo
+2022,11,0.9999999922904133,cumulative_progress_plan,132,Plan Cumm.Prog,Daewoo
+2022,12,0.9999999922904133,cumulative_progress_plan,132,Plan Cumm.Prog,Daewoo
+2023,1,0.9999999922904133,cumulative_progress_plan,132,Plan Cumm.Prog,Daewoo
+2023,2,0.9999999922904133,cumulative_progress_plan,132,Plan Cumm.Prog,Daewoo
+2023,3,0.9999999922904133,cumulative_progress_plan,132,Plan Cumm.Prog,Daewoo
+2023,4,0.9999999922904133,cumulative_progress_plan,132,Plan Cumm.Prog,Daewoo
+2023,5,0.9999999922904133,cumulative_progress_plan,132,Plan Cumm.Prog,Daewoo
+2023,6,0.9999999922904133,cumulative_progress_plan,132,Plan Cumm.Prog,Daewoo
+2023,7,0.9999999922904133,cumulative_progress_plan,132,Plan Cumm.Prog,Daewoo
+2023,8,0.9999999922904133,cumulative_progress_plan,132,Plan Cumm.Prog,Daewoo
+2023,9,0.9999999922904133,cumulative_progress_plan,132,Plan Cumm.Prog,Daewoo
+2019,4,0.0,cumulative_progress_actual,133,Actual Cumm. Prog,Daewoo
+2019,5,0.0,cumulative_progress_actual,133,Actual Cumm. Prog,Daewoo
+2019,6,0.0,cumulative_progress_actual,133,Actual Cumm. Prog,Daewoo
+2019,7,0.0,cumulative_progress_actual,133,Actual Cumm. Prog,Daewoo
+2019,8,0.0,cumulative_progress_actual,133,Actual Cumm. Prog,Daewoo
+2019,9,0.0,cumulative_progress_actual,133,Actual Cumm. Prog,Daewoo
+2019,10,0.01242875268717643,cumulative_progress_actual,133,Actual Cumm. Prog,Daewoo
+2019,11,0.03588480437971506,cumulative_progress_actual,133,Actual Cumm. Prog,Daewoo
+2019,12,0.05797453406963633,cumulative_progress_actual,133,Actual Cumm. Prog,Daewoo
+2020,1,0.08473772435028917,cumulative_progress_actual,133,Actual Cumm. Prog,Daewoo
+2020,2,0.17458591620743083,cumulative_progress_actual,133,Actual Cumm. Prog,Daewoo
+2020,3,0.27693125586696854,cumulative_progress_actual,133,Actual Cumm. Prog,Daewoo
+2020,4,0.3454640207207465,cumulative_progress_actual,133,Actual Cumm. Prog,Daewoo
+2020,5,0.44576645063834175,cumulative_progress_actual,133,Actual Cumm. Prog,Daewoo
+2020,6,0.5405629447565271,cumulative_progress_actual,133,Actual Cumm. Prog,Daewoo
+2020,7,0.6201077038855167,cumulative_progress_actual,133,Actual Cumm. Prog,Daewoo
+2020,8,0.6898585214638571,cumulative_progress_actual,133,Actual Cumm. Prog,Daewoo
+2020,9,0.7189584599377987,cumulative_progress_actual,133,Actual Cumm. Prog,Daewoo
+2020,10,0.7792085625930546,cumulative_progress_actual,133,Actual Cumm. Prog,Daewoo
+2020,11,0.8530257146728382,cumulative_progress_actual,133,Actual Cumm. Prog,Daewoo
+2020,12,0.8532141812691615,cumulative_progress_actual,133,Actual Cumm. Prog,Daewoo
+2021,1,0.8532141812691615,cumulative_progress_actual,133,Actual Cumm. Prog,Daewoo
+2021,2,0.8532832407697262,cumulative_progress_actual,133,Actual Cumm. Prog,Daewoo
+2021,3,0.857,cumulative_progress_actual,133,Actual Cumm. Prog,Daewoo
+2021,4,0.865,cumulative_progress_actual,133,Actual Cumm. Prog,Daewoo
+2021,5,0.867,cumulative_progress_actual,133,Actual Cumm. Prog,Daewoo
+2021,6,0.8690305244217029,cumulative_progress_actual,133,Actual Cumm. Prog,Daewoo
+2021,7,0.8748985867125921,cumulative_progress_actual,133,Actual Cumm. Prog,Daewoo
+2021,8,0.8748985867125921,cumulative_progress_actual,133,Actual Cumm. Prog,Daewoo
+2021,9,0.8776693498420101,cumulative_progress_actual,133,Actual Cumm. Prog,Daewoo
+2021,10,0.879,cumulative_progress_actual,133,Actual Cumm. Prog,Daewoo
+2021,11,0.8895267214531115,cumulative_progress_actual,133,Actual Cumm. Prog,Daewoo
+2021,12,0.9052681420303144,cumulative_progress_actual,133,Actual Cumm. Prog,Daewoo
+2022,1,0.9339407665405335,cumulative_progress_actual,133,Actual Cumm. Prog,Daewoo
+2022,2,0.9674529524721243,cumulative_progress_actual,133,Actual Cumm. Prog,Daewoo
+2022,3,0.9752864121578574,cumulative_progress_actual,133,Actual Cumm. Prog,Daewoo
+2022,4,0.9864416637694667,cumulative_progress_actual,133,Actual Cumm. Prog,Daewoo
+2022,5,0.9929855862738636,cumulative_progress_actual,133,Actual Cumm. Prog,Daewoo
+2022,6,0.9963690551592039,cumulative_progress_actual,133,Actual Cumm. Prog,Daewoo
+2022,7,0.9969620944231873,cumulative_progress_actual,133,Actual Cumm. Prog,Daewoo
+2022,8,0.9978012210172869,cumulative_progress_actual,133,Actual Cumm. Prog,Daewoo
+2022,9,0.9990587768029311,cumulative_progress_actual,133,Actual Cumm. Prog,Daewoo
+2022,10,0.9996955933603251,cumulative_progress_actual,133,Actual Cumm. Prog,Daewoo
+2022,11,0.9999999922904133,cumulative_progress_actual,133,Actual Cumm. Prog,Daewoo
+2022,12,0.9999999922904133,cumulative_progress_actual,133,Actual Cumm. Prog,Daewoo
+2023,1,0.9999999922904133,cumulative_progress_actual,133,Actual Cumm. Prog,Daewoo
+2023,2,0.9999999922904133,cumulative_progress_actual,133,Actual Cumm. Prog,Daewoo
+2023,3,0.9999999922904133,cumulative_progress_actual,133,Actual Cumm. Prog,Daewoo
+2023,4,0.9999999922904133,cumulative_progress_actual,133,Actual Cumm. Prog,Daewoo
+2023,5,0.9999999922904133,cumulative_progress_actual,133,Actual Cumm. Prog,Daewoo
+2023,6,0.9999999922904133,cumulative_progress_actual,133,Actual Cumm. Prog,Daewoo
+2023,7,0.9999999922904133,cumulative_progress_actual,133,Actual Cumm. Prog,Daewoo
+2023,8,0.9999999922904133,cumulative_progress_actual,133,Actual Cumm. Prog,Daewoo
+2023,9,0.9999999922904133,cumulative_progress_actual,133,Actual Cumm. Prog,Daewoo
+2019,4,0.0,unknown_134,134,Plan per Month,Daewoo
+2019,5,0.001632317138946132,unknown_134,134,Plan per Month,Daewoo
+2019,6,0.04199251398022843,unknown_134,134,Plan per Month,Daewoo
+2019,7,0.006281292507931892,unknown_134,134,Plan per Month,Daewoo
+2019,8,0.021018893347733,unknown_134,134,Plan per Month,Daewoo
+2019,9,0.0474309168324485,unknown_134,134,Plan per Month,Daewoo
+2019,10,0.004683220115126993,unknown_134,134,Plan per Month,Daewoo
+2019,11,0.0028364970393200822,unknown_134,134,Plan per Month,Daewoo
+2019,12,0.001767098008579493,unknown_134,134,Plan per Month,Daewoo
+2020,1,0.021310110642831726,unknown_134,134,Plan per Month,Daewoo
+2020,2,0.02844056655353086,unknown_134,134,Plan per Month,Daewoo
+2020,3,0.22023946255440033,unknown_134,134,Plan per Month,Daewoo
+2020,4,0.04281592880323554,unknown_134,134,Plan per Month,Daewoo
+2020,5,0.04465535163465684,unknown_134,134,Plan per Month,Daewoo
+2020,6,0.019420386592801098,unknown_134,134,Plan per Month,Daewoo
+2020,7,0.02668159479498189,unknown_134,134,Plan per Month,Daewoo
+2020,8,0.13544778180165784,unknown_134,134,Plan per Month,Daewoo
+2020,9,0.0022985028865279977,unknown_134,134,Plan per Month,Daewoo
+2020,10,0.006787152236600202,unknown_134,134,Plan per Month,Daewoo
+2020,11,0.04589838822383452,unknown_134,134,Plan per Month,Daewoo
+2020,12,0.03090507472261772,unknown_134,134,Plan per Month,Daewoo
+2021,1,0.06527283309260479,unknown_134,134,Plan per Month,Daewoo
+2021,2,0.0011841164894040856,unknown_134,134,Plan per Month,Daewoo
+2021,3,0.0010000000000000009,unknown_134,134,Plan per Month,Daewoo
+2021,4,0.0020000000000000018,unknown_134,134,Plan per Month,Daewoo
+2021,5,0.0020000000000000018,unknown_134,134,Plan per Month,Daewoo
+2021,6,0.0005224282720841522,unknown_134,134,Plan per Month,Daewoo
+2021,7,0.030079047663980396,unknown_134,134,Plan per Month,Daewoo
+2021,8,0.027277726349745235,unknown_134,134,Plan per Month,Daewoo
+2021,9,0.00212079771419027,unknown_134,134,Plan per Month,Daewoo
+2021,10,0.0012863854936254748,unknown_134,134,Plan per Month,Daewoo
+2021,11,0.002926741202016525,unknown_134,134,Plan per Month,Daewoo
+2021,12,0.0153589637691538,unknown_134,134,Plan per Month,Daewoo
+2022,1,0.02906474764581335,unknown_134,134,Plan per Month,Daewoo
+2022,2,0.0358536360352969,unknown_134,134,Plan per Month,Daewoo
+2022,3,0.023721019276600197,unknown_134,134,Plan per Month,Daewoo
+2022,4,0.0071386835829740924,unknown_134,134,Plan per Month,Daewoo
+2022,5,0.00030741313002613513,unknown_134,134,Plan per Month,Daewoo
+2022,6,0.0003423969287389417,unknown_134,134,Plan per Month,Daewoo
+2022,7,0.0,unknown_134,134,Plan per Month,Daewoo
+2022,8,0.0,unknown_134,134,Plan per Month,Daewoo
+2022,9,5.226167831828832e-09,unknown_134,134,Plan per Month,Daewoo
+2022,10,0.0,unknown_134,134,Plan per Month,Daewoo
+2022,11,0.0,unknown_134,134,Plan per Month,Daewoo
+2022,12,0.0,unknown_134,134,Plan per Month,Daewoo
+2023,1,0.0,unknown_134,134,Plan per Month,Daewoo
+2023,2,0.0,unknown_134,134,Plan per Month,Daewoo
+2023,3,0.0,unknown_134,134,Plan per Month,Daewoo
+2023,4,0.0,unknown_134,134,Plan per Month,Daewoo
+2023,5,0.0,unknown_134,134,Plan per Month,Daewoo
+2023,6,0.0,unknown_134,134,Plan per Month,Daewoo
+2023,7,0.0,unknown_134,134,Plan per Month,Daewoo
+2023,8,0.0,unknown_134,134,Plan per Month,Daewoo
+2023,9,0.0,unknown_134,134,Plan per Month,Daewoo
+2019,4,0.0,unknown_135,135,Actual per Month,Daewoo
+2019,5,0.0,unknown_135,135,Actual per Month,Daewoo
+2019,6,0.0,unknown_135,135,Actual per Month,Daewoo
+2019,7,0.0,unknown_135,135,Actual per Month,Daewoo
+2019,8,0.0,unknown_135,135,Actual per Month,Daewoo
+2019,9,0.0,unknown_135,135,Actual per Month,Daewoo
+2019,10,0.01242875268717643,unknown_135,135,Actual per Month,Daewoo
+2019,11,0.02345605169253863,unknown_135,135,Actual per Month,Daewoo
+2019,12,0.022089729689921275,unknown_135,135,Actual per Month,Daewoo
+2020,1,0.02676319028065284,unknown_135,135,Actual per Month,Daewoo
+2020,2,0.08984819185714166,unknown_135,135,Actual per Month,Daewoo
+2020,3,0.10234533965953771,unknown_135,135,Actual per Month,Daewoo
+2020,4,0.06853276485377796,unknown_135,135,Actual per Month,Daewoo
+2020,5,0.10030242991759525,unknown_135,135,Actual per Month,Daewoo
+2020,6,0.09479649411818536,unknown_135,135,Actual per Month,Daewoo
+2020,7,0.07954475912898962,unknown_135,135,Actual per Month,Daewoo
+2020,8,0.06975081757834034,unknown_135,135,Actual per Month,Daewoo
+2020,9,0.029099938473941656,unknown_135,135,Actual per Month,Daewoo
+2020,10,0.06025010265525588,unknown_135,135,Actual per Month,Daewoo
+2020,11,0.07381715207978357,unknown_135,135,Actual per Month,Daewoo
+2020,12,0.0001884665963233223,unknown_135,135,Actual per Month,Daewoo
+2021,1,0.0,unknown_135,135,Actual per Month,Daewoo
+2021,2,6.905950056468324e-05,unknown_135,135,Actual per Month,Daewoo
+2021,3,0.003716759230273814,unknown_135,135,Actual per Month,Daewoo
+2021,4,0.008000000000000007,unknown_135,135,Actual per Month,Daewoo
+2021,5,0.0020000000000000018,unknown_135,135,Actual per Month,Daewoo
+2021,6,0.0020305244217029284,unknown_135,135,Actual per Month,Daewoo
+2021,7,0.005868062290889209,unknown_135,135,Actual per Month,Daewoo
+2021,8,0.0,unknown_135,135,Actual per Month,Daewoo
+2021,9,0.0027707631294179302,unknown_135,135,Actual per Month,Daewoo
+2021,10,0.0013306501579899432,unknown_135,135,Actual per Month,Daewoo
+2021,11,0.01052672145311151,unknown_135,135,Actual per Month,Daewoo
+2021,12,0.015741420577202847,unknown_135,135,Actual per Month,Daewoo
+2022,1,0.028672624510219125,unknown_135,135,Actual per Month,Daewoo
+2022,2,0.03351218593159078,unknown_135,135,Actual per Month,Daewoo
+2022,3,0.007833459685733124,unknown_135,135,Actual per Month,Daewoo
+2022,4,0.011155251611609351,unknown_135,135,Actual per Month,Daewoo
+2022,5,0.006543922504396837,unknown_135,135,Actual per Month,Daewoo
+2022,6,0.003383468885340357,unknown_135,135,Actual per Month,Daewoo
+2022,7,0.0005930392639833526,unknown_135,135,Actual per Month,Daewoo
+2022,8,0.0008391265940995707,unknown_135,135,Actual per Month,Daewoo
+2022,9,0.0012575557856442376,unknown_135,135,Actual per Month,Daewoo
+2022,10,0.0006368165573940043,unknown_135,135,Actual per Month,Daewoo
+2022,11,0.00030439893008815666,unknown_135,135,Actual per Month,Daewoo
+2022,12,0.0,unknown_135,135,Actual per Month,Daewoo
+2023,1,0.0,unknown_135,135,Actual per Month,Daewoo
+2023,2,0.0,unknown_135,135,Actual per Month,Daewoo
+2023,3,0.0,unknown_135,135,Actual per Month,Daewoo
+2023,4,0.0,unknown_135,135,Actual per Month,Daewoo
+2023,5,0.0,unknown_135,135,Actual per Month,Daewoo
+2023,6,0.0,unknown_135,135,Actual per Month,Daewoo
+2023,7,0.0,unknown_135,135,Actual per Month,Daewoo
+2023,8,0.0,unknown_135,135,Actual per Month,Daewoo
+2023,9,0.0,unknown_135,135,Actual per Month,Daewoo

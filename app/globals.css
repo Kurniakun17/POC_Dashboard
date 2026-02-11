@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@import "./dashboard-theme.css";
 
 @custom-variant dark (&:is(.dark *));
 
@@ -39,60 +40,80 @@
     --ring: 212 100% 48%;                 /* blue-700 */
     --radius: 0.5rem;
 
-    /* Sidebar - consistent with main theme */
-    --sidebar: 0 0% 100%;                 /* white */
-    --sidebar-foreground: 0 0% 9%;        /* gray-1000 */
-    --sidebar-primary: 212 100% 48%;      /* blue-700 */
+    /* Sidebar */
+    --sidebar: 0 0% 100%;
+    --sidebar-foreground: 0 0% 9%;
+    --sidebar-primary: 212 100% 48%;
     --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 0 0% 95%;           /* gray-100 */
-    --sidebar-accent-foreground: 0 0% 9%; /* gray-1000 */
-    --sidebar-border: 0 0% 90%;           /* gray-300 */
-    --sidebar-ring: 212 100% 48%;         /* blue-700 */
+    --sidebar-accent: 0 0% 95%;
+    --sidebar-accent-foreground: 0 0% 9%;
+    --sidebar-border: 0 0% 90%;
+    --sidebar-ring: 212 100% 48%;
+
+    /* Chart Colors - BP Brand */
+    --chart-blue: 212 100% 48%;
+    --chart-green: 142 71% 45%;
+    --chart-orange: 25 95% 53%;
+    --chart-red: 0 72% 51%;
+    --chart-purple: 271 81% 56%;
+    --chart-yellow: 43 96% 56%;
+    --chart-cyan: 189 94% 43%;
+    --chart-pink: 330 81% 60%;
   }
 
   .dark {
-    /* Geist Dark Theme */
-    --background: 0 0% 10%;               /* gray-dark-100 #0a0a0a */
-    --foreground: 0 0% 93%;               /* gray-dark-1000 */
-    --card: 0 0% 12%;                     /* gray-dark-200 */
-    --card-foreground: 0 0% 93%;          /* gray-dark-1000 */
-    --popover: 0 0% 12%;                  /* gray-dark-200 */
-    --popover-foreground: 0 0% 93%;       /* gray-dark-1000 */
+    /* Deep Navy Executive Theme */
+    --background: 222 47% 6%;             /* #0B1120 deep navy-black */
+    --foreground: 210 40% 96%;            /* near-white with blue tint */
+    --card: 222 47% 8%;                   /* #0F172A slate-900 */
+    --card-foreground: 210 40% 96%;
+    --popover: 222 47% 9%;
+    --popover-foreground: 210 40% 96%;
 
-    /* Primary - Geist Blue Dark */
-    --primary: 212 100% 48%;              /* blue-dark-700 */
+    /* Primary - Vivid Blue */
+    --primary: 217 91% 60%;              /* #3B82F6 */
     --primary-foreground: 0 0% 100%;
 
     /* Secondary */
-    --secondary: 0 0% 16%;                /* gray-dark-300 */
-    --secondary-foreground: 0 0% 93%;     /* gray-dark-1000 */
+    --secondary: 217 33% 14%;
+    --secondary-foreground: 210 40% 96%;
 
     /* Muted */
-    --muted: 0 0% 16%;                    /* gray-dark-300 */
-    --muted-foreground: 0 0% 63%;         /* gray-dark-900 */
+    --muted: 217 33% 14%;
+    --muted-foreground: 215 20% 55%;
 
     /* Accent */
-    --accent: 0 0% 16%;                   /* gray-dark-300 */
-    --accent-foreground: 0 0% 93%;        /* gray-dark-1000 */
+    --accent: 217 33% 17%;
+    --accent-foreground: 210 40% 96%;
 
-    /* Destructive - Geist Red Dark */
-    --destructive: 358 75% 59%;           /* red-dark-700 */
-    --destructive-foreground: 0 0% 93%;
+    /* Destructive */
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 210 40% 96%;
 
     /* Borders & Inputs */
-    --border: 0 0% 16%;                   /* gray-dark-300 */
-    --input: 0 0% 16%;                    /* gray-dark-300 */
-    --ring: 212 100% 48%;                 /* blue-dark-700 */
+    --border: 217 33% 17%;
+    --input: 217 33% 17%;
+    --ring: 217 91% 60%;
 
-    /* Sidebar - consistent with dark theme */
-    --sidebar: 0 0% 12%;                  /* gray-dark-200 */
-    --sidebar-foreground: 0 0% 93%;       /* gray-dark-1000 */
-    --sidebar-primary: 212 100% 48%;      /* blue-dark-700 */
+    /* Sidebar - Deep navy */
+    --sidebar: 222 47% 7%;
+    --sidebar-foreground: 210 40% 96%;
+    --sidebar-primary: 217 91% 60%;
     --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 0 0% 16%;           /* gray-dark-300 */
-    --sidebar-accent-foreground: 0 0% 93%; /* gray-dark-1000 */
-    --sidebar-border: 0 0% 16%;           /* gray-dark-300 */
-    --sidebar-ring: 212 100% 48%;         /* blue-dark-700 */
+    --sidebar-accent: 217 33% 14%;
+    --sidebar-accent-foreground: 210 40% 96%;
+    --sidebar-border: 217 33% 17%;
+    --sidebar-ring: 217 91% 60%;
+
+    /* Chart Colors - Brighter for dark mode contrast */
+    --chart-blue: 217 91% 60%;           /* #3B82F6 */
+    --chart-green: 142 71% 50%;          /* #22C55E */
+    --chart-orange: 25 95% 58%;          /* #F97316 */
+    --chart-red: 0 84% 60%;              /* #EF4444 */
+    --chart-purple: 271 81% 60%;         /* #A855F7 */
+    --chart-yellow: 43 96% 56%;          /* #EAB308 */
+    --chart-cyan: 189 94% 48%;           /* #06B6D4 */
+    --chart-pink: 330 81% 65%;           /* #EC4899 */
   }
 }
 
@@ -125,6 +146,16 @@
   --color-sidebar-accent-foreground: hsl(var(--sidebar-accent-foreground));
   --color-sidebar-border: hsl(var(--sidebar-border));
   --color-sidebar-ring: hsl(var(--sidebar-ring));
+
+  /* Chart Colors */
+  --color-chart-blue: hsl(var(--chart-blue));
+  --color-chart-green: hsl(var(--chart-green));
+  --color-chart-orange: hsl(var(--chart-orange));
+  --color-chart-red: hsl(var(--chart-red));
+  --color-chart-purple: hsl(var(--chart-purple));
+  --color-chart-yellow: hsl(var(--chart-yellow));
+  --color-chart-cyan: hsl(var(--chart-cyan));
+  --color-chart-pink: hsl(var(--chart-pink));
 
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
